@@ -3,22 +3,25 @@ import type {AppProps} from 'next/app'
 import App from 'next/app';
 import {REALTORS_API} from '../services/constants';
 import {Realtor} from '../model/realtor';
-import {SelectRealtors} from '../components/common/SelectRealtors';
+import {HeaderApp} from '../components/header/HeaderApp';
 import MessageListLayout from '../components/MessageListLayout';
 import {ContentContainer} from '../components/common/ContentContainer';
+import {AppContainer} from '../components/common/AppContainer';
+import styled from 'styled-components';
 
 interface CustomAppProps extends AppProps {
   realtors: Realtor[];
 }
 
+
 function MyApp({Component, pageProps, realtors}: CustomAppProps) {
-  return <>
-    <SelectRealtors realtors={realtors}/>
-    <ContentContainer id="content-container">
+  return <AppContainer>
+    <HeaderApp realtors={realtors}/>
+    <ContentContainer>
       <MessageListLayout {...pageProps}/>
       <Component {...pageProps} />
     </ContentContainer>
-  </>
+  </AppContainer>
 }
 
 MyApp.getInitialProps = async function (appContext) {

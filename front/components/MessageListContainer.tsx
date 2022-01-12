@@ -13,8 +13,8 @@ const MessagesContainer = styled.div`
   display: flex;
   flex-direction: column;
   overflow: auto;
-  height: calc(100vh - 18px);
-  max-width: 500px;
+  flex: 1 1 auto;
+  max-width: 375px;
 `
 
 export const MessagesListContainer = ({messagesData, handleOnClickMessage}: MessagesListContainerProps) => {
