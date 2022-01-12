@@ -1,20 +1,9 @@
-import {useRouter} from 'next/router';
-import {MessagesListContainer} from '../../../components/MessageListContainer';
 import {REALTORS_MESSAGES_PAGE_API} from '../../../services/constants';
 import {Message} from '../../../model/message';
 
-function RealtorsDetail({messagesData}: {messagesData: Message[]}) {
-  const router = useRouter();
-  const realtorsId = router.query.realtorsId as string;
+function RealtorsDetail({messagesData}: { messagesData: Message[] }) {
 
-  const handleOnClickMessage = (message: string) => {
-    router.push(`/realtors/${realtorsId}/messages/${message}`, undefined, {shallow: true});
-  }
-
-
-  return <>
-    <MessagesListContainer messagesData={messagesData} handleOnClickMessage={handleOnClickMessage}/>
-  </>
+  return <></>
 }
 
 export async function getServerSideProps({params, query}) {

@@ -13,6 +13,8 @@ const MessagesContainer = styled.div`
   display: flex;
   flex-direction: column;
   overflow: auto;
+  height: calc(100vh - 18px);
+  max-width: 500px;
 `
 
 export const MessagesListContainer = ({messagesData, handleOnClickMessage}: MessagesListContainerProps) => {
@@ -46,12 +48,11 @@ export const MessagesListContainer = ({messagesData, handleOnClickMessage}: Mess
 
   useEffect(() => {
     if (messagesData) {
-      if (selectedRealtor !== realtorsId || firstUpdate.current) {
+      if (selectedRealtor !== realtorsId) {
         setRealtor(realtorsId);
         setMessages([...messagesData]);
-        firstUpdate.current = false;
       } else {
-        messages.push(...messagesData);
+        setMessages([...messages, ...messagesData].filter((v,i,a)=>a.findIndex(t=>(t.id===v.id))===i))
       }
     }
     window.addEventListener('scroll', handleScroll);
@@ -60,7 +61,7 @@ export const MessagesListContainer = ({messagesData, handleOnClickMessage}: Mess
     }
   }, [messagesData])
 
-  return <MessagesContainer>
+  return <MessagesContainer id="messageContainer">
     {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
                                                                  handleOnClickMessage={handleOnClickMessage}/>)}
   </MessagesContainer>

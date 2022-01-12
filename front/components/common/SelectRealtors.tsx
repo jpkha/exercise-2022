@@ -21,7 +21,7 @@ export const SelectRealtors = ({realtors}: { realtors: Realtor[] }) => {
     <select value={selectedRealtor} name="agencies" id="agency-select" onChange={handleSelectAgencies}>
       <option value="">-- Choissisez une option--</option>
       {realtors?.map((agency: Realtor) =>
-        <option value={agency.id}> {agency.id}</option>)}
+        <option key={agency.id} value={agency.id}> {agency.id}</option>)}
     </select>
   </>
 }

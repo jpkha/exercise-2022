@@ -1,11 +1,8 @@
 import {useRouter} from 'next/router';
-import {SelectRealtors} from '../../../../components/common/SelectRealtors';
-import {MessagesListContainer} from '../../../../components/MessageListContainer';
 import {GetSpecificRealtorsMessages} from '../../../../services/realtors.service';
 import {REALTORS_MESSAGES_PAGE_API} from '../../../../services/constants';
-import {Message} from '../../../../model/message';
 
-function MessagesDetail({messagesData}: {messagesData : Message[]}) {
+function MessagesDetail() {
   const router = useRouter();
   const {messageId, realtorsId}: { messageId: string, realtorsId: string } = router.query;
 
@@ -17,12 +14,9 @@ function MessagesDetail({messagesData}: {messagesData : Message[]}) {
   if (!messageDetail) return <div>Loading...</div>;
 
   return <>
-    <div style={{display: 'flex'}}>
-      <MessagesListContainer messagesData={messagesData} handleOnClickMessage={handleOnClickMessage}/>
-      <p style={{color: 'red'}}>
-        {messageDetail?.body}
-      </p>
-    </div>
+    <p style={{color: 'red'}}>
+      {messageDetail?.body}
+    </p>
   </>
 }
 
