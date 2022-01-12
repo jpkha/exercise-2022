@@ -1,24 +1,18 @@
 import {useRouter} from 'next/router';
-import {SelectRealtors} from '../../../components/common/SelectRealtors';
-import {useRealtorsContext} from '../../../context/realtors-context';
 import {MessagesListContainer} from '../../../components/MessageListContainer';
 import {REALTORS_MESSAGES_PAGE_API} from '../../../services/constants';
+import {Message} from '../../../model/message';
 
-function RealtorsDetail({messagesData}) {
-  const {selectedRealtor, setRealtor} = useRealtorsContext();
+function RealtorsDetail({messagesData}: {messagesData: Message[]}) {
   const router = useRouter();
   const realtorsId = router.query.realtorsId as string;
-  if (selectedRealtor !== realtorsId) {
-    setRealtor(realtorsId);
-  }
 
-  const handleOnClickMessage = (message) => {
-    router.push(`/realtors/${selectedRealtor}/messages/${message}`, undefined, {shallow: true});
+  const handleOnClickMessage = (message: string) => {
+    router.push(`/realtors/${realtorsId}/messages/${message}`, undefined, {shallow: true});
   }
 
 
   return <>
-    <SelectRealtors/>
     <MessagesListContainer messagesData={messagesData} handleOnClickMessage={handleOnClickMessage}/>
   </>
 }

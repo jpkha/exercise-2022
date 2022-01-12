@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01f25ca-a49f-4874-b5a6-8a0b352d02f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/MessageCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MessageListContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/SelectRealtors.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/context/messages-list-context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/context/realtors-context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/message.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/realtor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/realtors/[realtorsId]/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/realtors/[realtorsId]/messages/[messageId].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/realtors/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/realtors.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MessageCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MessageCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MessageListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MessageListContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/SelectRealtors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/SelectRealtors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/messages-list-context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/realtors-context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/model/message.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/realtors/[realtorsId]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/realtors/[realtorsId]/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/realtors/[realtorsId]/messages/[messageId].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/realtors/[realtorsId]/messages/[messageId].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/realtors/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/realtors/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/constants.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641832418225</updated>
-      <workItem from="1641832420933" duration="32653000" />
+      <workItem from="1641832420933" duration="34690000" />
     </task>
     <servers />
   </component>

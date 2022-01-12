@@ -2,8 +2,9 @@ import {Message} from '../model/message';
 
 interface MessageProps {
   readonly message: Message,
-  readonly handleOnClickMessage: (id: string) => {}
+  readonly handleOnClickMessage: (id: string) => void
 }
+
 
 export const MessageCard = ({message, handleOnClickMessage}: MessageProps) => {
   return <div onClick={() => handleOnClickMessage(message.id)}>

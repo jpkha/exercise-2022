@@ -9,7 +9,7 @@ export interface Message {
   body: string;
   contact: Contact;
   date: Date;
-  id: number;
+  id: string;
   read: boolean;
   subject: string;
   type: string;

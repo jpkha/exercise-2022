@@ -2,31 +2,26 @@ import {Message} from '../model/message';
 import {MessageCard} from './MessageCard';
 import {useEffect, useRef, useState} from 'react';
 import {useRouter} from 'next/router';
-import {useRealtorsContext} from '../context/realtors-context';
 import styled from 'styled-components';
 
 interface MessagesListContainerProps {
-  readonly messagesData: Message[]
-  readonly handleOnClickMessage: (id: string) => {}
+  readonly messagesData: Message[];
+  readonly handleOnClickMessage: ((id: string) => void);
 }
 
 const MessagesContainer = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  max-height: 800px;
   overflow: auto;
 `
 
 export const MessagesListContainer = ({messagesData, handleOnClickMessage}: MessagesListContainerProps) => {
-  console.log(messagesData);
   const firstUpdate = useRef(true);
   const router = useRouter();
-  const {selectedRealtor, setRealtor} = useRealtorsContext();
+  const [selectedRealtor, setRealtor] = useState('');
   const realtorsId = router.query.realtorsId as string;
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([] as Message[]);
   const [page, setPage] = useState('1');
-  console.log(messages);
   const handleScroll = () => {
     const lastMessagesLoaded = document.querySelector(
       'div:last-child'

@@ -1,7 +1,5 @@
-import {SelectRealtors} from '../../components/common/SelectRealtors';
-
 function Realtors() {
-  return <SelectRealtors/>
+  return <></>
 }
 
 export default Realtors;
