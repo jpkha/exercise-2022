@@ -1,8 +1,7 @@
 import {Message} from '../model/api/message';
-import {useEffect, useRef, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useRouter} from 'next/router';
 import styled from 'styled-components';
-import {MessageEmailCard} from './Messages/MessageEmailCard';
 import {MessageCard} from './Messages/MessageCard';
 
 interface MessagesListContainerProps {
@@ -26,14 +25,14 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   const realtorsId = router.query.realtorsId.toString();
   const [messages, setMessages] = useState([] as Message[]);
   const [page, setPage] = useState('1');
+  const [messageListFullyLoaded, setMessageListFullyLoaded] = useState(false);
+
   const handleScroll = () => {
-    const lastMessagesLoaded = document.querySelector(
-      'div:last-child'
-    )
+    const listContainer = document.getElementById('message-list-container');
+    const lastMessagesLoaded = listContainer?.querySelector('li:last-child') as HTMLElement;
     if (lastMessagesLoaded) {
-      const lastMessagesLoadedOffset = lastMessagesLoaded.offsetTop + lastMessagesLoaded.clientHeight;
-      const pageOffset = window.pageYOffset + window.innerHeight;
-      if (pageOffset > lastMessagesLoadedOffset) {
+      const listContainerOffset = listContainer.clientHeight + listContainer.scrollTop;
+      if (listContainerOffset > lastMessagesLoaded.offsetTop) {
         const query = router.query;
         const newPage = parseInt(page) + 1;
         setPage(newPage.toString());
@@ -49,21 +48,25 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   }
 
   useEffect(() => {
-    if (messagesData) {
+    if (messagesData && !messageListFullyLoaded) {
       if (selectedRealtor !== realtorsId) {
         setRealtor(realtorsId);
         setMessages([...messagesData]);
       } else {
-        setMessages([...messages, ...messagesData].filter((v,i,a)=>a.findIndex(t=>(t.id===v.id))===i))
+        setMessages([...messages, ...messagesData].filter((v, i, a) => a.findIndex(t => (t.id === v.id)) === i))
       }
+      document.getElementById('message-list-container')?.addEventListener('scroll', handleScroll);
     }
-    // window.addEventListener('scroll', handleScroll);
-    // return () => {
-    //   window.removeEventListener('scroll', handleScroll)
-    // }
+    if(messagesData.length === 0) {
+      setMessageListFullyLoaded(true);
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
+    }
+    return () => {
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll)
+    }
   }, [messagesData])
 
-  return <MessagesContainer>
-    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
+  return <MessagesContainer id="message-list-container">
+      {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
   </MessagesContainer>
 }
