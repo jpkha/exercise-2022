@@ -23,7 +23,7 @@ const MessagesContainer = styled.ul`
 export const MessagesListContainer = ({messagesData}: MessagesListContainerProps) => {
   const router = useRouter();
   const [selectedRealtor, setRealtor] = useState('');
-  const realtorsId = router.query.realtorsId as string;
+  const realtorsId = router.query.realtorsId.toString();
   const [messages, setMessages] = useState([] as Message[]);
   const [page, setPage] = useState('1');
   const handleScroll = () => {

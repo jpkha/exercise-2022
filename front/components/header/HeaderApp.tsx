@@ -1,6 +1,9 @@
-import styled from "styled-components"
-import { Realtor } from "../../model/api/realtor"
+import styled from 'styled-components'
+import {Realtor} from '../../model/api/realtor'
 import {SelectRealtors} from './SelectRealtors';
+import {useRouter} from 'next/router';
+import {greyBackgroundBoxColor, primaryColor} from '../../styles/variables';
+import {LogoMeilleursAgents} from './LogoMeilleursAgents';
 
 const HeaderContainer = styled.header`
   height: 60px;
@@ -12,18 +15,33 @@ const HeaderContainer = styled.header`
   z-index: 1;
 `
 
-const LogoContainer = styled.div`
-  flex: 1 0 auto;
-`
 
+const UnreadMessageContainer = styled.div`
+  flex: 0 0 auto;
+  color: white;
+  background-color: ${({emptyBox}) => emptyBox ? greyBackgroundBoxColor : primaryColor};
+  margin: 0 12px;
+  padding: 5px 12px;
+  margin: 0 12px;
+  border-radius: 8px;
+
+  > i {
+    padding-right: 10px;
+  }
+`
 export const HeaderApp = ({realtors}: { realtors: Realtor[] }) => {
+  const router = useRouter();
+  const realtorsId = router.query.realtorsId?.toString();
+  const selectedRealtor = realtors.find((realtor: Realtor) => realtorsId === realtor.id.toString());
   return (
     <HeaderContainer>
-      <LogoContainer>Logo</LogoContainer>
-      <div> N3 </div>
-      <div>
-        <SelectRealtors realtors={realtors}/>
-      </div>
+      <LogoMeilleursAgents realtorsId={realtorsId}/>
+      {selectedRealtor &&
+      <UnreadMessageContainer emptyBox={selectedRealtor.unread_messages === 0}>
+          <i className="mypro-icon mypro-icon-inbox"></i>{selectedRealtor.unread_messages}
+      </UnreadMessageContainer>
+      }
+      <SelectRealtors realtors={realtors}/>
     </HeaderContainer>
   )
 }

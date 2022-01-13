@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 import Moment from 'react-moment';
 import {
-  greyBackgroundColor, greyIconColor,
+  greyBackgroundColor,
+  greyIconColor,
   greyMessageColor,
   greySelectedMessageBackgroundColor,
   primaryColor
 } from '../../styles/variables';
 import {useRouter} from 'next/router';
 import {ReactElement} from 'react';
+import Link from 'next/link'
 
 
 const MessageCardContainer = styled.li`
@@ -91,7 +93,7 @@ const MessageTypeLogo = styled.div`
 `
 
 const MessageLink = styled.a`
-  ::after{
+  ::after {
     content: '';
     position: absolute;
     z-index: 1;
@@ -101,6 +103,7 @@ const MessageLink = styled.a`
     bottom: 0;
   }
 `
+
 interface GenericMessageProps {
   message: {
     type: string,
@@ -118,9 +121,10 @@ interface GenericMessageProps {
 export const MessageGenericCard = ({message}: GenericMessageProps) => {
   const {icon, title, date, messageContentTitle, body, phone, read, id} = message;
   const router = useRouter();
-  const realtorsId = router.query.realtorsId as string;
-  const messageId = router.query.messageId as string;
+  const realtorsId = router.query.realtorsId?.toString();
+  const messageId = router.query.messageId?.toString();
   const link = `/realtors/${realtorsId}/messages/${id}`;
+  const parsedPhone = phone?.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')
 
   return <MessageCardContainer selectedMessage={messageId === id.toString()}>
     <MessageTypeLogo read={read}>{icon}</MessageTypeLogo>
@@ -128,19 +132,19 @@ export const MessageGenericCard = ({message}: GenericMessageProps) => {
       <MessageTitleContainer read={read}>
         <h2>
           {title ?
-          <>
-              <MessageLink href={link}>{title}</MessageLink>
-            {phone && (
-              <span>({phone.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')})
+            <>
+              <Link href={link}>
+                <MessageLink>{title}</MessageLink>
+              </Link>
+              {parsedPhone && (
+                <span>({parsedPhone})
               </span>)
-            }
+              }
             </>
             :
-            <>
-              <MessageLink href={link}>{phone && (<>
-                {phone.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')}</>)
-              }</MessageLink>
-            </>
+            <Link href={link}>
+              <MessageLink>{parsedPhone && (<>{parsedPhone}</>)}</MessageLink>
+            </Link>
           }
         </h2>
         <Moment fromNow ago>{date}</Moment>
