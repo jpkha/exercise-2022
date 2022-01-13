@@ -1,9 +1,8 @@
 import {REALTORS_MESSAGES_PAGE_API} from '../../../services/constants';
-import {Message} from '../../../model/message';
+import {MessageDetail} from '../../../components/MessageDetail';
 
-function RealtorsDetail({messagesData}: { messagesData: Message[] }) {
-
-  return <></>
+function RealtorsDetail() {
+  return <MessageDetail/>
 }
 
 export async function getServerSideProps({params, query}) {

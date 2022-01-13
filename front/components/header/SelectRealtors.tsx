@@ -1,4 +1,4 @@
-import {Realtor} from '../../model/realtor';
+import {Realtor} from '../../model/api/realtor';
 import {useRouter} from 'next/router';
 import {ChangeEvent} from 'react';
 import styled from 'styled-components';

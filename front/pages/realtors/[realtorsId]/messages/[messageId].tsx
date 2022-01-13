@@ -1,6 +1,7 @@
 import {useRouter} from 'next/router';
 import {GetSpecificRealtorsMessages} from '../../../../services/realtors.service';
 import {REALTORS_MESSAGES_PAGE_API} from '../../../../services/constants';
+import {MessageDetail} from '../../../../components/MessageDetail';
 
 function MessagesDetail() {
   const router = useRouter();
@@ -8,16 +9,9 @@ function MessagesDetail() {
 
   const {data: messageDetail, error: messageError} = GetSpecificRealtorsMessages(realtorsId, messageId);
 
-  const handleOnClickMessage = (message: string) => {
-    router.push(`/realtors/${realtorsId}/messages/${message}`, undefined, {shallow: true, scroll: false});
-  }
   if (!messageDetail) return <div>Loading...</div>;
 
-  return <>
-    <p style={{color: 'red'}}>
-      {messageDetail?.body}
-    </p>
-  </>
+  return <MessageDetail messageDetail={messageDetail}/>
 }
 
 export async function getServerSideProps({params, query}) {

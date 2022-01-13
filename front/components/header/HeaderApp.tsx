@@ -1,13 +1,15 @@
 import styled from "styled-components"
-import { Realtor } from "../../model/realtor"
+import { Realtor } from "../../model/api/realtor"
 import {SelectRealtors} from './SelectRealtors';
 
-const HeaderContainer = styled.div`
+const HeaderContainer = styled.header`
   height: 60px;
   display: flex;
   flex: 0 0 auto;
   align-items: center;
   box-shadow: 0 2px 4px 0 rgb(58 58 58 / 30%);
+  position: relative;
+  z-index: 1;
 `
 
 const LogoContainer = styled.div`

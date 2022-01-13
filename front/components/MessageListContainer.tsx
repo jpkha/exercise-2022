@@ -1,24 +1,26 @@
-import {Message} from '../model/message';
-import {MessageCard} from './MessageCard';
+import {Message} from '../model/api/message';
 import {useEffect, useRef, useState} from 'react';
 import {useRouter} from 'next/router';
 import styled from 'styled-components';
+import {MessageEmailCard} from './Messages/MessageEmailCard';
+import {MessageCard} from './Messages/MessageCard';
 
 interface MessagesListContainerProps {
   readonly messagesData: Message[];
   readonly handleOnClickMessage: ((id: string) => void);
 }
 
-const MessagesContainer = styled.div`
+const MessagesContainer = styled.ul`
   display: flex;
   flex-direction: column;
   overflow: auto;
-  flex: 1 1 auto;
-  max-width: 375px;
+  flex: 0 0 375px;
+  border-right: 1px solid #BABBBA;
+  padding: 0;
+  margin: 0;
 `
 
-export const MessagesListContainer = ({messagesData, handleOnClickMessage}: MessagesListContainerProps) => {
-  const firstUpdate = useRef(true);
+export const MessagesListContainer = ({messagesData}: MessagesListContainerProps) => {
   const router = useRouter();
   const [selectedRealtor, setRealtor] = useState('');
   const realtorsId = router.query.realtorsId as string;
@@ -55,14 +57,13 @@ export const MessagesListContainer = ({messagesData, handleOnClickMessage}: Mess
         setMessages([...messages, ...messagesData].filter((v,i,a)=>a.findIndex(t=>(t.id===v.id))===i))
       }
     }
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
+    // window.addEventListener('scroll', handleScroll);
+    // return () => {
+    //   window.removeEventListener('scroll', handleScroll)
+    // }
   }, [messagesData])
 
-  return <MessagesContainer id="messageContainer">
-    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
-                                                                 handleOnClickMessage={handleOnClickMessage}/>)}
+  return <MessagesContainer>
+    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
   </MessagesContainer>
 }

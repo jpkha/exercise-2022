@@ -6,8 +6,8 @@ import {
   REALTORS_SPECIFIC_MESSAGES_API
 } from './constants';
 import axios, {AxiosResponse} from 'axios';
-import {Realtor} from '../model/realtor';
-import {Message} from '../model/message';
+import {Realtor} from '../model/api/realtor';
+import {Message} from '../model/api/message';
 
 const realtorsFetcher = (url: string) => axios.get(url).then(({data}: AxiosResponse<Realtor[]>) => data as Realtor[]);
 const realtorsMessagesFetcher = (url: string) => axios.get(url).then(({data}: AxiosResponse<Message[]>) => data as Message[]);

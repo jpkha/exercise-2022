@@ -2,12 +2,12 @@ import '../styles/globals.css'
 import type {AppProps} from 'next/app'
 import App from 'next/app';
 import {REALTORS_API} from '../services/constants';
-import {Realtor} from '../model/realtor';
+import {Realtor} from '../model/api/realtor';
 import {HeaderApp} from '../components/header/HeaderApp';
 import MessageListLayout from '../components/MessageListLayout';
 import {ContentContainer} from '../components/common/ContentContainer';
 import {AppContainer} from '../components/common/AppContainer';
-import styled from 'styled-components';
+import moment from 'moment';
 
 interface CustomAppProps extends AppProps {
   realtors: Realtor[];
@@ -15,6 +15,7 @@ interface CustomAppProps extends AppProps {
 
 
 function MyApp({Component, pageProps, realtors}: CustomAppProps) {
+  moment.locale('fr');
   return <AppContainer>
     <HeaderApp realtors={realtors}/>
     <ContentContainer>
