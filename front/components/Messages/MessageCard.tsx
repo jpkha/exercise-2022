@@ -4,7 +4,6 @@ import {MessageSmsCard} from './MessageSmsCard';
 import {MessagePhoneCard} from './MessagePhoneCard';
 
 export const MessageCard = ({message}: MessageProps) => {
-  console.log(message.type);
   switch (message.type) {
     case 'email':
       return <MessageEmailCard message={message}/>

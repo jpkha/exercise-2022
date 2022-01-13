@@ -7,6 +7,7 @@ import {
   primaryColor
 } from '../../styles/variables';
 import {useRouter} from 'next/router';
+import {ReactElement} from 'react';
 
 
 const MessageCardContainer = styled.li`
@@ -83,8 +84,6 @@ const MessageBody = styled.small`
 `
 
 const MessageTypeLogo = styled.div`
-  height: 18px;
-  width: 18px;
   overflow: hidden;
   flex: 0 0 auto;
   margin-right: 12px;
@@ -110,29 +109,39 @@ interface GenericMessageProps {
     messageContentTitle: string,
     messageContentBody: string,
     phone: string,
-    read: boolean
+    read: boolean,
+    icon: ReactElement
   }
 }
 
 
 export const MessageGenericCard = ({message}: GenericMessageProps) => {
-  const {type, title, date, messageContentTitle, body, phone, read, id} = message;
+  const {icon, title, date, messageContentTitle, body, phone, read, id} = message;
   const router = useRouter();
   const realtorsId = router.query.realtorsId as string;
   const messageId = router.query.messageId as string;
-  console.log(messageId);
-  console.log(id);
   const link = `/realtors/${realtorsId}/messages/${id}`;
 
   return <MessageCardContainer selectedMessage={messageId === id.toString()}>
-    <MessageTypeLogo read={read}>{type}</MessageTypeLogo>
-
+    <MessageTypeLogo read={read}>{icon}</MessageTypeLogo>
     <MessageMainBodyContainer read={read}>
       <MessageTitleContainer read={read}>
         <h2>
-          <MessageLink href={link}>{title}</MessageLink>
-          {phone && (
-            <span>({phone.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')})</span>)}
+          {title ?
+          <>
+              <MessageLink href={link}>{title}</MessageLink>
+            {phone && (
+              <span>({phone.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')})
+              </span>)
+            }
+            </>
+            :
+            <>
+              <MessageLink href={link}>{phone && (<>
+                {phone.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')}</>)
+              }</MessageLink>
+            </>
+          }
         </h2>
         <Moment fromNow ago>{date}</Moment>
       </MessageTitleContainer>
@@ -143,6 +152,5 @@ export const MessageGenericCard = ({message}: GenericMessageProps) => {
         </MessageBody>
       </MessageContent>
     </MessageMainBodyContainer>
-
   </MessageCardContainer>
 }

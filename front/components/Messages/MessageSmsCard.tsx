@@ -7,6 +7,7 @@ export const MessageSmsCard = ({message}: MessageProps) => {
       title: `${message.contact.firstname} ${message.contact.lastname}`,
       phone: message.contact.phone,
       messageContentTitle: 'SMS sur votre vitrine Meilleurs Agents',
+      icon: (<i className="mypro-icon mypro-icon-sms"></i>)
     }}
   />
 }

@@ -7,6 +7,7 @@ export const MessagePhoneCard = ({message}: MessageProps) => {
       title: `${message.contact.firstname} ${message.contact.lastname}`,
       phone: message.contact.phone,
       messageContentTitle:'Message vocal sur votre vitrine Meilleurs Agents',
+      icon: (<i className="mypro-icon mypro-icon-phone"></i>)
     }}
   />
 }
