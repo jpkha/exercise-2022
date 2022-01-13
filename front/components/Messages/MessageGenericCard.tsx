@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Moment from 'react-moment';
 import {
   greyBackgroundColor,
   greyIconColor,
@@ -10,6 +9,7 @@ import {
 import {useRouter} from 'next/router';
 import {ReactElement} from 'react';
 import Link from 'next/link'
+import {relativeDateTime} from '../../utils/relativeDateTime';
 
 
 const MessageCardContainer = styled.li`
@@ -147,7 +147,7 @@ export const MessageGenericCard = ({message}: GenericMessageProps) => {
             </Link>
           }
         </h2>
-        <Moment fromNow ago>{date}</Moment>
+        <time> {relativeDateTime(date)}</time>
       </MessageTitleContainer>
       <MessageContent>
         {messageContentTitle}

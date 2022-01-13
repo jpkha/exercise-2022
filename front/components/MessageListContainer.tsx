@@ -3,6 +3,8 @@ import {useEffect, useState} from 'react';
 import {useRouter} from 'next/router';
 import styled from 'styled-components';
 import {MessageCard} from './Messages/MessageCard';
+import {deleteDuplicateMessage} from '../utils/deleteDuplicateMessages';
+import {orderByDate} from '../utils/orderByDate';
 
 interface MessagesListContainerProps {
   readonly messagesData: Message[];
@@ -21,8 +23,8 @@ const MessagesContainer = styled.ul`
 
 export const MessagesListContainer = ({messagesData}: MessagesListContainerProps) => {
   const router = useRouter();
-  const [selectedRealtor, setRealtor] = useState('');
   const realtorsId = router.query.realtorsId.toString();
+  const [selectedRealtor, setSelectedRealtor] = useState('');
   const [messages, setMessages] = useState([] as Message[]);
   const [page, setPage] = useState('1');
   const [messageListFullyLoaded, setMessageListFullyLoaded] = useState(false);
@@ -30,43 +32,60 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   const handleScroll = () => {
     const listContainer = document.getElementById('message-list-container');
     const lastMessagesLoaded = listContainer?.querySelector('li:last-child') as HTMLElement;
-    if (lastMessagesLoaded) {
+
+    if (lastMessagesLoaded && selectedRealtor === realtorsId) {
       const listContainerOffset = listContainer.clientHeight + listContainer.scrollTop;
       if (listContainerOffset > lastMessagesLoaded.offsetTop) {
-        const query = router.query;
-        const newPage = parseInt(page) + 1;
-        setPage(newPage.toString());
-        query.page = newPage.toString();
-        router.push({
-          pathname: router.pathname,
-          query
-        }, undefined, {
-          scroll: false
-        })
+        callNewMessagesPage();
       }
     }
   }
 
+  const callNewMessagesPage = () => {
+    const query = router.query;
+    const newPage = parseInt(page) + 1;
+    setPage(newPage.toString());
+    query.page = newPage.toString();
+    router.push({
+      pathname: router.pathname,
+      query
+    }, undefined, {
+      scroll: false
+    })
+  }
+
+  const manageFirstIncomingMessages = () => {
+    setSelectedRealtor(realtorsId);
+    setPage('1');
+    setMessageListFullyLoaded(false);
+    setMessages(orderByDate([...messagesData]));
+  }
+
+  const manageFollowingMessages = () => {
+    setMessages(orderByDate(deleteDuplicateMessage([...messages, ...messagesData])));
+  }
+
   useEffect(() => {
-    if (messagesData && !messageListFullyLoaded) {
+    if ((messagesData && !messageListFullyLoaded) || selectedRealtor !== realtorsId) {
       if (selectedRealtor !== realtorsId) {
-        setRealtor(realtorsId);
-        setMessages([...messagesData]);
+        manageFirstIncomingMessages();
       } else {
-        setMessages([...messages, ...messagesData].filter((v, i, a) => a.findIndex(t => (t.id === v.id)) === i))
+        manageFollowingMessages();
       }
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
       document.getElementById('message-list-container')?.addEventListener('scroll', handleScroll);
     }
-    if(messagesData.length === 0) {
+    if (messagesData.length === 0) {
       setMessageListFullyLoaded(true);
       document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
     }
     return () => {
       document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll)
     }
-  }, [messagesData])
+  }, [messagesData, selectedRealtor])
+
 
   return <MessagesContainer id="message-list-container">
-      {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
+    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
   </MessagesContainer>
 }

@@ -7,12 +7,13 @@ import {HeaderApp} from '../components/header/HeaderApp';
 import MessageListLayout from '../components/MessageListLayout';
 import {ContentContainer} from '../components/common/ContentContainer';
 import {AppContainer} from '../components/common/AppContainer';
+import 'moment/locale/fr';
 import moment from 'moment';
 
 interface CustomAppProps extends AppProps {
   realtors: Realtor[];
 }
-
+'MM/DD/YY, h:mm'
 
 function MyApp({Component, pageProps, realtors}: CustomAppProps) {
   moment.locale('fr');

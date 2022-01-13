@@ -22,7 +22,7 @@ export const SelectRealtors = ({realtors}: { realtors: Realtor[] }) => {
   const handleSelectAgencies = (event: ChangeEvent<HTMLSelectElement>) => {
     event.preventDefault();
     const realtorId = event.target.value;
-    router.push(`/realtors/${realtorId}`);
+    router.push(`/realtors/${realtorId}`, undefined);
   };
 
   let selectedRealtor = '';
