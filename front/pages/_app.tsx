@@ -4,25 +4,28 @@ import App from 'next/app';
 import {REALTORS_API} from '../services/constants';
 import {Realtor} from '../model/api/realtor';
 import {HeaderApp} from '../components/header/HeaderApp';
+import {RealtorsProvider} from '../context/realtors-context';
 import MessageListLayout from '../components/MessageListLayout';
 import {ContentContainer} from '../components/common/ContentContainer';
 import {AppContainer} from '../components/common/AppContainer';
 import 'moment/locale/fr';
 import moment from 'moment';
 
+
 interface CustomAppProps extends AppProps {
   realtors: Realtor[];
 }
-'MM/DD/YY, h:mm'
 
 function MyApp({Component, pageProps, realtors}: CustomAppProps) {
   moment.locale('fr');
   return <AppContainer>
-    <HeaderApp realtors={realtors}/>
-    <ContentContainer>
-      <MessageListLayout {...pageProps}/>
-      <Component {...pageProps} />
-    </ContentContainer>
+    <RealtorsProvider realtors={realtors}>
+      <HeaderApp/>
+      <ContentContainer>
+        <MessageListLayout {...pageProps}/>
+        <Component {...pageProps} />
+      </ContentContainer>
+    </RealtorsProvider>
   </AppContainer>
 }
 

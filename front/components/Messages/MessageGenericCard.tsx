@@ -7,9 +7,10 @@ import {
   primaryColor
 } from '../../styles/variables';
 import {useRouter} from 'next/router';
-import {ReactElement} from 'react';
+import {ReactElement, useContext} from 'react';
 import Link from 'next/link'
 import {relativeDateTime} from '../../utils/relativeDateTime';
+import {RealtorsContext} from '../../context/realtors-context';
 
 
 const MessageCardContainer = styled.li`
@@ -125,8 +126,17 @@ export const MessageGenericCard = ({message}: GenericMessageProps) => {
   const messageId = router.query.messageId?.toString();
   const link = `/realtors/${realtorsId}/messages/${id}`;
   const parsedPhone = phone?.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')
+  const {realtorHasReadOneMessage} = useContext(RealtorsContext);
+  const handleClickMessageCard = () => {
+    console.log('handleClickMessageCard');
+    if (realtorsId) {
+      realtorHasReadOneMessage(realtorsId);
+    }
 
-  return <MessageCardContainer selectedMessage={messageId === id.toString()}>
+  }
+
+
+  return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard}>
     <MessageTypeLogo read={read}>{icon}</MessageTypeLogo>
     <MessageMainBodyContainer read={read}>
       <MessageTitleContainer read={read}>

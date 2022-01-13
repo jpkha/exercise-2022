@@ -4,6 +4,8 @@ import {SelectRealtors} from './SelectRealtors';
 import {useRouter} from 'next/router';
 import {greyBackgroundBoxColor, primaryColor} from '../../styles/variables';
 import {LogoMeilleursAgents} from './LogoMeilleursAgents';
+import {useContext} from 'react';
+import {RealtorsContext} from '../../context/realtors-context';
 
 const HeaderContainer = styled.header`
   height: 60px;
@@ -29,8 +31,9 @@ const UnreadMessageContainer = styled.div`
     padding-right: 10px;
   }
 `
-export const HeaderApp = ({realtors}: { realtors: Realtor[] }) => {
+export const HeaderApp = () => {
   const router = useRouter();
+  const {realtors} = useContext(RealtorsContext);
   const realtorsId = router.query.realtorsId?.toString();
   const selectedRealtor = realtors.find((realtor: Realtor) => realtorsId === realtor.id.toString());
   return (
