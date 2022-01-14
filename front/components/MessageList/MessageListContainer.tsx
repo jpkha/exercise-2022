@@ -8,6 +8,7 @@ import {RealtorsContext} from '../../context/realtors-context';
 import {AxiosResponse} from 'axios';
 import {hasReadSpecificMessages} from '../../services/realtors.service';
 import {replaceMessageForANewOne} from '../../utils/replaceMessageForANewOne';
+import {devicesMaxWidth} from '../../styles/variables';
 
 interface MessagesListContainerProps {
   readonly messagesData: Message[];
@@ -18,10 +19,17 @@ const MessagesContainer = styled.ul`
   display: flex;
   flex-direction: column;
   overflow: auto;
-  flex: 0 0 375px;
   border-right: 1px solid #BABBBA;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
+  flex: 0 0 375px;
+  list-style-type: none;
+  @media ${devicesMaxWidth.tablet} {
+    flex: 1 1 auto;
+  }
+}
 `
 
 export const MessagesListContainer = ({messagesData}: MessagesListContainerProps) => {
@@ -93,7 +101,11 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
     setSelectedRealtor(realtorsId);
     setPage('1');
     setMessageListFullyLoaded(false);
-    setMessages([...messagesData]);
+    if(messagesData) {
+      setMessages([...messagesData]);
+    } else {
+      setMessages([]);
+    }
   }
 
   const manageFollowingMessages = () => {
@@ -109,7 +121,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
       });
     }
   }
-  return <MessagesContainer id="message-list-container">
+  return <MessagesContainer id="message-list-container" tabindex="10">
     {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
                                                                  handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
     {loading && <h3 style={{textAlign: 'center'}}>Loading...</h3>}

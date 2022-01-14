@@ -6,7 +6,8 @@ export const MessageSmsCard = ({message, handleClickMessageCard}: MessageProps) 
     genericMessage= {{...message,
       title: `${message.contact.firstname} ${message.contact.lastname}`,
       phone: message.contact.phone,
-      messageContentTitle: 'SMS sur votre vitrine Meilleurs Agents'
+      messageContentTitle: 'SMS sur votre vitrine Meilleurs Agents',
+      description:`SMS ${message.read ? 'lu' : 'non lu'}`
     }}
     handleClickMessageCard={handleClickMessageCard}
   />

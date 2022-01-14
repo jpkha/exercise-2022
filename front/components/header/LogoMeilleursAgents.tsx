@@ -20,8 +20,8 @@ export const LogoMeilleursAgents = ({realtorsId}: {realtorsId: string}) => {
 `
   return <LogoContainer>
     <Logo>
-      <Link href={`/realtors/${realtorsId}`}>
-        <a><Image src="/logo-meilleursagents.svg" layout={'fill'} objectFit={'contain'} loading={'lazy'}
+      <Link href={`/realtors/${realtorsId}`} passHref>
+        <a title="Revenir à la messagerie"><Image src="/logo-meilleursagents.svg" layout={'fill'} objectFit={'contain'} loading={'lazy'}
                   alt="logo de Meilleurs agents"/></a>
       </Link>
     </Logo>

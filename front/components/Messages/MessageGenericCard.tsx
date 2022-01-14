@@ -19,10 +19,10 @@ const MessageCardContainer = styled.li`
   border-bottom: 1px solid #BABBBA;
   display: flex;
   flex: 0 0 120px;
-  padding: 22px 12px;
+  padding: 20px 12px;
   background-color: ${({selectedMessage}) => selectedMessage ? greySelectedMessageBackgroundColor : 'white'};
   ${({selectedMessage}) => !selectedMessage && `
-    :hover {
+    :hover, :focus {
     cursor: pointer;
     background-color: ${greyBackgroundColor};
   }
@@ -70,7 +70,7 @@ export const MessageGenericCard = ({genericMessage, handleClickMessageCard}: Gen
   const messageId = router.query.messageId?.toString();
 
   return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard}>
-    <MessageTypeLogo read={read}><MessageLogo type={type} read={read}/></MessageTypeLogo>
+    <MessageTypeLogo read={read} role="img" aria-label={genericMessage.description}><MessageLogo type={type} read={read}/></MessageTypeLogo>
     <MessageMainBodyContainer read={read}>
       <MessageTitleCard genericMessage={genericMessage}/>
       <MessageContent>

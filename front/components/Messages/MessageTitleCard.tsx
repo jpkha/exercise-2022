@@ -4,6 +4,7 @@ import {GenericMessageProps} from '../../model/genericMessageProps';
 import {useRouter} from 'next/router';
 import styled from 'styled-components';
 import {primaryColor} from '../../styles/variables';
+import {formatPhoneNumber} from '../../utils/formatPhoneNumber';
 
 const MessageTitleContainer = styled.div`
   display: flex;
@@ -51,13 +52,13 @@ export const MessageTitleCard = ({genericMessage}: GenericMessageProps) => {
   const router = useRouter();
   const realtorsId = router.query.realtorsId?.toString();
   const link = `/realtors/${realtorsId}/messages/${id}`;
-  const parsedPhone = phone?.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')
+  const parsedPhone = formatPhoneNumber(phone);
   return <MessageTitleContainer read={read}>
     <h2>
       {title ?
         <>
-          <Link href={link}>
-            <MessageLink>{title}</MessageLink>
+          <Link href={link} passHref>
+            <MessageLink >{title}</MessageLink>
           </Link>
           {parsedPhone && (
             <span>({parsedPhone})

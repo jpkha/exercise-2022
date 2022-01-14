@@ -1,15 +1,20 @@
 import {Message} from '../../model/api/message';
 import styled from 'styled-components';
-import {greyIconColor, primaryColor} from '../../styles/variables';
+import {devicesMaxWidth, greyIconColor, primaryColor} from '../../styles/variables';
 import {MessageLogo} from '../common/MessageLogo';
+import {MessageDetailsBorder} from '../../styles/utils';
+import {formatPhoneNumber} from '../../utils/formatPhoneNumber';
 
 
 const MessageHeaderContainer = styled.header`
+  ${MessageDetailsBorder};
   background-color: white;
   flex: 0 0 auto;
-  margin-bottom: 28px;
-  padding: 28px;
   display: flex;
+  margin-bottom: 28px;
+  @media ${devicesMaxWidth.tablet} {
+    margin-bottom: 20px;
+  }
 `
 
 const MessageHeaderTitle = styled.h2`
@@ -28,7 +33,10 @@ const MessageHeaderDescription = styled.div`
 
   > span {
     display: inline-block;
-    width: 200px;
+    width: 200px; //95px
+    @media ${devicesMaxWidth.tablet} {
+      width: 95px;
+    }
   }
 
   > a {
@@ -49,9 +57,11 @@ export const MessageHeader = ({message}: { message: Message }) => {
     <MessageHeaderContent>
       <MessageHeaderTitle> {contact.firstname} {contact.lastname}</MessageHeaderTitle>
       <MessageHeaderDescription><span>Email</span> <a href={`mailto:${contact.email}`}
+                                                      rel="noreferrer"
                                                       target="_blank">{contact.email}</a> </MessageHeaderDescription>
       <MessageHeaderDescription> <span>Téléphone</span> <a href={`tel:${contact.phone}`}
-                                                           target="_blank">{contact.phone}</a>
+                                                           rel="noreferrer"
+                                                           target="_blank">{formatPhoneNumber(contact.phone)}</a>
       </MessageHeaderDescription>
     </MessageHeaderContent>
   </MessageHeaderContainer>

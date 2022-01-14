@@ -1,11 +1,12 @@
+import {Message} from './api/message';
+
 export interface GenericMessageProps {
-  genericMessage: {
-    type: string,
-    title: string,
-    date: Date,
-    messageContentTitle: string,
-    messageContentBody: string,
-    phone: string,
-    read: boolean
-  }
+  genericMessage: GenericMessage
+}
+
+interface GenericMessage extends Message  {
+  messageContentTitle: string,
+  messageContentBody: string,
+  description: string,
+  phone: string
 }

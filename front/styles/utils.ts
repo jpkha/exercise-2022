@@ -1,4 +1,5 @@
 import { css } from "styled-components";
+import {devicesMaxWidth} from './variables';
 
 export const SrOnly = () => css`
   position: absolute;
@@ -10,4 +11,11 @@ export const SrOnly = () => css`
   clip: rect(0, 0, 0, 0);
   white-space: nowrap; /* added line */
   border: 0;
+`
+
+export const MessageDetailsBorder = () => css`
+  padding: 28px;
+  @media ${devicesMaxWidth.tablet} {
+    padding: 20px;
+  }
 `
