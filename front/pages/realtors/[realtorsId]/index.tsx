@@ -1,5 +1,5 @@
 import {REALTORS_MESSAGES_PAGE_API} from '../../../services/constants';
-import {MessageDetail} from '../../../components/MessageDetail';
+import {MessageDetail} from '../../../components/MessageDetail/MessageDetail';
 
 function RealtorsDetail() {
   return <MessageDetail/>

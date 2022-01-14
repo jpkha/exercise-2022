@@ -1,13 +1,13 @@
-import {Message} from '../model/api/message';
+import {Message} from '../../model/api/message';
 import {useContext, useEffect, useState} from 'react';
 import {Router, useRouter} from 'next/router';
 import styled from 'styled-components';
-import {MessageCard} from './Messages/MessageCard';
-import {deleteDuplicateMessage} from '../utils/deleteDuplicateMessages';
-import {RealtorsContext} from '../context/realtors-context';
+import {MessageCard} from '../Messages/MessageCard';
+import {deleteDuplicateMessage} from '../../utils/deleteDuplicateMessages';
+import {RealtorsContext} from '../../context/realtors-context';
 import {AxiosResponse} from 'axios';
-import {hasReadSpecificMessages} from '../services/realtors.service';
-import {replaceMessageForANewOne} from '../utils/replaceMessageForANewOne';
+import {hasReadSpecificMessages} from '../../services/realtors.service';
+import {replaceMessageForANewOne} from '../../utils/replaceMessageForANewOne';
 
 interface MessagesListContainerProps {
   readonly messagesData: Message[];

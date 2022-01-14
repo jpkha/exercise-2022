@@ -5,7 +5,7 @@ import {REALTORS_API} from '../services/constants';
 import {Realtor} from '../model/api/realtor';
 import {HeaderApp} from '../components/header/HeaderApp';
 import {RealtorsProvider} from '../context/realtors-context';
-import MessageListLayout from '../components/MessageListLayout';
+import MessageListLayout from '../components/MessageList/MessageListLayout';
 import {ContentContainer} from '../components/common/ContentContainer';
 import {AppContainer} from '../components/common/AppContainer';
 import 'moment/locale/fr';
