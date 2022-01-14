@@ -1,6 +1,6 @@
 import {Message} from '../model/api/message';
 import {useContext, useEffect, useState} from 'react';
-import {useRouter} from 'next/router';
+import {Router, useRouter} from 'next/router';
 import styled from 'styled-components';
 import {MessageCard} from './Messages/MessageCard';
 import {deleteDuplicateMessage} from '../utils/deleteDuplicateMessages';
@@ -31,6 +31,38 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   const [messages, setMessages] = useState([] as Message[]);
   const [page, setPage] = useState('1');
   const [messageListFullyLoaded, setMessageListFullyLoaded] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const startLoading = () => setLoading(true);
+  const stopLoading = () => setLoading(false);
+
+  useEffect(() => {
+    Router.events.on('routeChangeStart', startLoading);
+    Router.events.on('routeChangeComplete', stopLoading);
+    return () => {
+      Router.events.off('routeChangeStart', startLoading);
+      Router.events.off('routeChangeComplete', stopLoading);
+    }
+  }, [])
+
+  useEffect(() => {
+    if ((messagesData && !messageListFullyLoaded) || selectedRealtor !== realtorsId) {
+      if (selectedRealtor !== realtorsId) {
+        manageFirstIncomingMessages();
+      } else {
+        manageFollowingMessages();
+      }
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
+      document.getElementById('message-list-container')?.addEventListener('scroll', handleScroll);
+    }
+    if (messagesData?.length === 0) {
+      setMessageListFullyLoaded(true);
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
+    }
+    return () => {
+      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll)
+    }
+  }, [messagesData, selectedRealtor, loading])
+
 
   const handleScroll = () => {
     const listContainer = document.getElementById('message-list-container');
@@ -38,7 +70,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
 
     if (lastMessagesLoaded && selectedRealtor === realtorsId) {
       const listContainerOffset = listContainer.clientHeight + listContainer.scrollTop;
-      if (listContainerOffset > lastMessagesLoaded.offsetTop) {
+      if (listContainerOffset > lastMessagesLoaded.offsetTop && !loading) {
         callNewMessagesPage();
       }
     }
@@ -68,26 +100,6 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
     setMessages(deleteDuplicateMessage([...messages, ...messagesData]));
   }
 
-  useEffect(() => {
-    if ((messagesData && !messageListFullyLoaded) || selectedRealtor !== realtorsId) {
-      if (selectedRealtor !== realtorsId) {
-        manageFirstIncomingMessages();
-      } else {
-        manageFollowingMessages();
-      }
-      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
-      document.getElementById('message-list-container')?.addEventListener('scroll', handleScroll);
-    }
-    if (messagesData?.length === 0) {
-      setMessageListFullyLoaded(true);
-      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
-    }
-    return () => {
-      document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll)
-    }
-  }, [messagesData, selectedRealtor])
-
-
   const {realtorHasReadOneMessage} = useContext(RealtorsContext);
   const handleClickMessageCard = (message: Message) => {
     if (realtorsId && !message.read) {
@@ -100,5 +112,6 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   return <MessagesContainer id="message-list-container">
     {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
                                                                  handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
+    {loading && <h3 style={{textAlign: 'center'}}>Loading...</h3>}
   </MessagesContainer>
 }

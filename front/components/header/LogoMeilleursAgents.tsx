@@ -6,7 +6,7 @@ export const LogoMeilleursAgents = ({realtorsId}: {realtorsId: string}) => {
   const LogoContainer = styled.div`
   flex: 1 0 auto;
 `
-  const Logo = styled.div`
+  const Logo = styled.h1`
   height: 37px;
   max-width: 133px;
   margin-left: 12px;
