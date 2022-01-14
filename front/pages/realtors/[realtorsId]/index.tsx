@@ -8,7 +8,8 @@ function RealtorsDetail() {
 export async function getServerSideProps({params, query}) {
   const realtor = params.realtorsId;
   const page = query.page || 1;
-  const res = await fetch(REALTORS_MESSAGES_PAGE_API(realtor, page));
+  const sort = 'desc'
+  const res = await fetch(REALTORS_MESSAGES_PAGE_API(realtor, page, sort));
   const messagesData = await res.json();
   return {
     props: {messagesData}

@@ -1,10 +1,13 @@
 import {Message} from '../model/api/message';
-import {useEffect, useState} from 'react';
+import {useContext, useEffect, useState} from 'react';
 import {useRouter} from 'next/router';
 import styled from 'styled-components';
 import {MessageCard} from './Messages/MessageCard';
 import {deleteDuplicateMessage} from '../utils/deleteDuplicateMessages';
-import {orderByDate} from '../utils/orderByDate';
+import {RealtorsContext} from '../context/realtors-context';
+import {AxiosResponse} from 'axios';
+import {hasReadSpecificMessages} from '../services/realtors.service';
+import {replaceMessageForANewOne} from '../utils/replaceMessageForANewOne';
 
 interface MessagesListContainerProps {
   readonly messagesData: Message[];
@@ -58,11 +61,11 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
     setSelectedRealtor(realtorsId);
     setPage('1');
     setMessageListFullyLoaded(false);
-    setMessages(orderByDate([...messagesData]));
+    setMessages([...messagesData]);
   }
 
   const manageFollowingMessages = () => {
-    setMessages(orderByDate(deleteDuplicateMessage([...messages, ...messagesData])));
+    setMessages(deleteDuplicateMessage([...messages, ...messagesData]));
   }
 
   useEffect(() => {
@@ -75,7 +78,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
       document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
       document.getElementById('message-list-container')?.addEventListener('scroll', handleScroll);
     }
-    if (messagesData.length === 0) {
+    if (messagesData?.length === 0) {
       setMessageListFullyLoaded(true);
       document.getElementById('message-list-container')?.removeEventListener('scroll', handleScroll);
     }
@@ -85,7 +88,17 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   }, [messagesData, selectedRealtor])
 
 
+  const {realtorHasReadOneMessage} = useContext(RealtorsContext);
+  const handleClickMessageCard = (message: Message) => {
+    if (realtorsId && !message.read) {
+      hasReadSpecificMessages(realtorsId, message).then(({data}: AxiosResponse<Message>) => {
+        setMessages(replaceMessageForANewOne(messages, data));
+        realtorHasReadOneMessage(realtorsId);
+      });
+    }
+  }
   return <MessagesContainer id="message-list-container">
-    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}/>)}
+    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
+                                                                 handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
   </MessagesContainer>
 }

@@ -10,7 +10,6 @@ import {useRouter} from 'next/router';
 import {ReactElement, useContext} from 'react';
 import Link from 'next/link'
 import {relativeDateTime} from '../../utils/relativeDateTime';
-import {RealtorsContext} from '../../context/realtors-context';
 
 
 const MessageCardContainer = styled.li`
@@ -35,6 +34,7 @@ const MessageMainBodyContainer = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 0.875rem;
+  overflow: hidden;
   color: ${({read}) => read ? greyMessageColor : 'black'};
 
   > h3 {
@@ -106,7 +106,7 @@ const MessageLink = styled.a`
 `
 
 interface GenericMessageProps {
-  message: {
+  genericMessage: {
     type: string,
     title: string,
     date: Date,
@@ -119,22 +119,13 @@ interface GenericMessageProps {
 }
 
 
-export const MessageGenericCard = ({message}: GenericMessageProps) => {
-  const {icon, title, date, messageContentTitle, body, phone, read, id} = message;
+export const MessageGenericCard = ({genericMessage, handleClickMessageCard}: GenericMessageProps) => {
+  const {icon, title, date, messageContentTitle, body, phone, read, id} = genericMessage;
   const router = useRouter();
   const realtorsId = router.query.realtorsId?.toString();
   const messageId = router.query.messageId?.toString();
   const link = `/realtors/${realtorsId}/messages/${id}`;
   const parsedPhone = phone?.replace(/^\s*([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})\s*\-?([0-9]{2})$/, '$1 $2 $3 $4 $5')
-  const {realtorHasReadOneMessage} = useContext(RealtorsContext);
-  const handleClickMessageCard = () => {
-    console.log('handleClickMessageCard');
-    if (realtorsId) {
-      realtorHasReadOneMessage(realtorsId);
-    }
-
-  }
-
 
   return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard}>
     <MessageTypeLogo read={read}>{icon}</MessageTypeLogo>
