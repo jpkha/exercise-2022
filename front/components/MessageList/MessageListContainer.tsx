@@ -121,7 +121,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
       });
     }
   }
-  return <MessagesContainer id="message-list-container" tabindex="10">
+  return <MessagesContainer id="message-list-container" data-cy="message-list-container" tabindex="10">
     {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
                                                                  handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
     {loading && <h3 style={{textAlign: 'center'}}>Loading...</h3>}

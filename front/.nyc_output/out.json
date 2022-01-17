@@ -1,0 +1,5874 @@
+{
+  "/Users/itekhaj/Programme/test/meilleursagents/front/services/constants.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/services/constants.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 1,
+          "column": 51
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 54
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 37
+        },
+        "end": {
+          "line": 4,
+          "column": 110
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 61
+        },
+        "end": {
+          "line": 4,
+          "column": 110
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 98
+        }
+      },
+      "5": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 98
+        }
+      },
+      "6": {
+        "start": {
+          "line": 8,
+          "column": 46
+        },
+        "end": {
+          "line": 8,
+          "column": 151
+        }
+      },
+      "7": {
+        "start": {
+          "line": 8,
+          "column": 89
+        },
+        "end": {
+          "line": 8,
+          "column": 151
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 37
+          },
+          "end": {
+            "line": 4,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 61
+          },
+          "end": {
+            "line": 4,
+            "column": 110
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 4
+          },
+          "end": {
+            "line": 7,
+            "column": 98
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 46
+          },
+          "end": {
+            "line": 8,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 89
+          },
+          "end": {
+            "line": 8,
+            "column": 151
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 0,
+      "4": 14,
+      "5": 0,
+      "6": 14,
+      "7": 1
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "cf7295a8288367f7c4de5d6e619a8a1dccfc4c51"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/styles/variables.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/styles/variables.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 1,
+          "column": 37
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 38
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 38
+        },
+        "end": {
+          "line": 4,
+          "column": 47
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 35
+        },
+        "end": {
+          "line": 5,
+          "column": 44
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 50
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+        }
+      },
+      "6": {
+        "start": {
+          "line": 8,
+          "column": 21
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "7": {
+        "start": {
+          "line": 18,
+          "column": 31
+        },
+        "end": {
+          "line": 26,
+          "column": 1
+        }
+      },
+      "8": {
+        "start": {
+          "line": 28,
+          "column": 31
+        },
+        "end": {
+          "line": 36,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 14,
+      "4": 14,
+      "5": 14,
+      "6": 14,
+      "7": 14,
+      "8": 14
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c25f1cec95b75992b4c01ca413f48591308c311a"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/styles/utils.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/styles/utils.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 22
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 28
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 36
+        },
+        "end": {
+          "line": 21,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 16,
+          "column": 42
+        },
+        "end": {
+          "line": 21,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 28
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 36
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 42
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 96,
+      "2": 14,
+      "3": 102
+    },
+    "f": {
+      "0": 96,
+      "1": 102
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "607a9d5838ac2ddf1288b580c63b081c7db623b8"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/SelectRealtors.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/SelectRealtors.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 20
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 32
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 15
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 19,
+          "column": 30
+        },
+        "end": {
+          "line": 41,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 20,
+          "column": 17
+        },
+        "end": {
+          "line": 20,
+          "column": 28
+        }
+      },
+      "5": {
+        "start": {
+          "line": 22,
+          "column": 31
+        },
+        "end": {
+          "line": 26,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 27
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 22
+        },
+        "end": {
+          "line": 24,
+          "column": 40
+        }
+      },
+      "8": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 42
+        }
+      },
+      "9": {
+        "start": {
+          "line": 28,
+          "column": 24
+        },
+        "end": {
+          "line": 28,
+          "column": 26
+        }
+      },
+      "10": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 57
+        }
+      },
+      "12": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 28
+        }
+      },
+      "13": {
+        "start": {
+          "line": 38,
+          "column": 8
+        },
+        "end": {
+          "line": 38,
+          "column": 91
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 19,
+            "column": 30
+          },
+          "end": {
+            "line": 19,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 71
+          },
+          "end": {
+            "line": 41,
+            "column": 1
+          }
+        },
+        "line": 19
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 31
+          },
+          "end": {
+            "line": 22,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 74
+          },
+          "end": {
+            "line": 26,
+            "column": 3
+          }
+        },
+        "line": 22
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 21
+          },
+          "end": {
+            "line": 37,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 8
+          },
+          "end": {
+            "line": 38,
+            "column": 91
+          }
+        },
+        "line": 38
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 2
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 2
+            },
+            "end": {
+              "line": 31,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 29
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 14,
+      "4": 96,
+      "5": 96,
+      "6": 9,
+      "7": 9,
+      "8": 9,
+      "9": 96,
+      "10": 96,
+      "11": 82,
+      "12": 96,
+      "13": 288
+    },
+    "f": {
+      "0": 96,
+      "1": 9,
+      "2": 288
+    },
+    "b": {
+      "0": [
+        82,
+        14
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1c9b85116491d2c3c656042d04b09064c2644441"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/LogoMeilleursAgents.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/LogoMeilleursAgents.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 35
+        },
+        "end": {
+          "line": 29,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 24
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 15
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 75
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 96,
+      "2": 96,
+      "3": 96
+    },
+    "f": {
+      "0": 96
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dab656ef0ff82192c8dab43e4f238a63cf733b6c"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/context/realtors-context.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/context/realtors-context.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 36
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 31
+        },
+        "end": {
+          "line": 10,
+          "column": 73
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 32
+        },
+        "end": {
+          "line": 28,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 34
+        },
+        "end": {
+          "line": 15,
+          "column": 55
+        }
+      },
+      "4": {
+        "start": {
+          "line": 16,
+          "column": 35
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 17,
+          "column": 18
+        },
+        "end": {
+          "line": 17,
+          "column": 95
+        }
+      },
+      "6": {
+        "start": {
+          "line": 17,
+          "column": 59
+        },
+        "end": {
+          "line": 17,
+          "column": 94
+        }
+      },
+      "7": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 41
+        }
+      },
+      "8": {
+        "start": {
+          "line": 21,
+          "column": 16
+        },
+        "end": {
+          "line": 25,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 91
+        }
+      },
+      "10": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 37
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 28
+          },
+          "end": {
+            "line": 6,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 51
+          },
+          "end": {
+            "line": 7,
+            "column": 3
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 32
+          },
+          "end": {
+            "line": 13,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 71
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 35
+          },
+          "end": {
+            "line": 16,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 58
+          },
+          "end": {
+            "line": 19,
+            "column": 3
+          }
+        },
+        "line": 16
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 37
+          },
+          "end": {
+            "line": 17,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 59
+          },
+          "end": {
+            "line": 17,
+            "column": 94
+          }
+        },
+        "line": 17
+      },
+      "4": {
+        "name": "useRealtorsContext",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 16
+          },
+          "end": {
+            "line": 30,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 37
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 96,
+      "4": 96,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 96,
+      "9": 96,
+      "10": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 96,
+      "2": 1,
+      "3": 1,
+      "4": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "148811422523e927b1ced179bc7bded05b32cea7"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/HeaderApp.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/header/HeaderApp.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 24
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 21,
+          "column": 31
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 24,
+          "column": 38
+        },
+        "end": {
+          "line": 24,
+          "column": 86
+        }
+      },
+      "3": {
+        "start": {
+          "line": 34,
+          "column": 25
+        },
+        "end": {
+          "line": 50,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 35,
+          "column": 17
+        },
+        "end": {
+          "line": 35,
+          "column": 28
+        }
+      },
+      "5": {
+        "start": {
+          "line": 36,
+          "column": 21
+        },
+        "end": {
+          "line": 36,
+          "column": 48
+        }
+      },
+      "6": {
+        "start": {
+          "line": 37,
+          "column": 21
+        },
+        "end": {
+          "line": 37,
+          "column": 56
+        }
+      },
+      "7": {
+        "start": {
+          "line": 38,
+          "column": 26
+        },
+        "end": {
+          "line": 38,
+          "column": 99
+        }
+      },
+      "8": {
+        "start": {
+          "line": 38,
+          "column": 62
+        },
+        "end": {
+          "line": 38,
+          "column": 98
+        }
+      },
+      "9": {
+        "start": {
+          "line": 39,
+          "column": 2
+        },
+        "end": {
+          "line": 49,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 22
+          },
+          "end": {
+            "line": 24,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 38
+          },
+          "end": {
+            "line": 24,
+            "column": 86
+          }
+        },
+        "line": 24
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 25
+          },
+          "end": {
+            "line": 34,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 31
+          },
+          "end": {
+            "line": 50,
+            "column": 1
+          }
+        },
+        "line": 34
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 38,
+            "column": 40
+          },
+          "end": {
+            "line": 38,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 62
+          },
+          "end": {
+            "line": 38,
+            "column": 98
+          }
+        },
+        "line": 38
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 38
+          },
+          "end": {
+            "line": 24,
+            "column": 86
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 49
+            },
+            "end": {
+              "line": 24,
+              "column": 71
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 74
+            },
+            "end": {
+              "line": 24,
+              "column": 86
+            }
+          }
+        ],
+        "line": 24
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 7
+          },
+          "end": {
+            "line": 45,
+            "column": 31
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 42,
+              "column": 7
+            },
+            "end": {
+              "line": 42,
+              "column": 22
+            }
+          },
+          {
+            "start": {
+              "line": 43,
+              "column": 6
+            },
+            "end": {
+              "line": 45,
+              "column": 31
+            }
+          }
+        ],
+        "line": 42
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 82,
+      "3": 14,
+      "4": 96,
+      "5": 96,
+      "6": 96,
+      "7": 96,
+      "8": 132,
+      "9": 96
+    },
+    "f": {
+      "0": 82,
+      "1": 96,
+      "2": 132
+    },
+    "b": {
+      "0": [
+        0,
+        82
+      ],
+      "1": [
+        96,
+        82
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "babbfd98c21e7707ba928668a422a245b6c5031e"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/MessageLogo.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/MessageLogo.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 27
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 56
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 58
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 9,
+          "column": 60
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 49
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 27
+          },
+          "end": {
+            "line": 1,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 75
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "end": {
+              "line": 5,
+              "column": 56
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 7,
+              "column": 58
+            }
+          },
+          {
+            "start": {
+              "line": 8,
+              "column": 4
+            },
+            "end": {
+              "line": 9,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "end": {
+              "line": 11,
+              "column": 49
+            }
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 55
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 22
+            },
+            "end": {
+              "line": 4,
+              "column": 68
+            }
+          },
+          {
+            "start": {
+              "line": 5,
+              "column": 8
+            },
+            "end": {
+              "line": 5,
+              "column": 55
+            }
+          }
+        ],
+        "line": 4
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 7930,
+      "2": 3520,
+      "3": 1706,
+      "4": 2704,
+      "5": 0
+    },
+    "f": {
+      "0": 7930
+    },
+    "b": {
+      "0": [
+        3520,
+        1706,
+        2704,
+        0
+      ],
+      "1": [
+        2848,
+        672
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "be6c08ad015d51e4c196054bddbe8cf24093e85d"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/utils/relativeDateTime.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/utils/relativeDateTime.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 34
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 32
+          },
+          "end": {
+            "line": 3,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 48
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 4
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 6
+          },
+          "end": {
+            "line": 4,
+            "column": 79
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 6
+            },
+            "end": {
+              "line": 4,
+              "column": 42
+            }
+          },
+          {
+            "start": {
+              "line": 4,
+              "column": 46
+            },
+            "end": {
+              "line": 4,
+              "column": 79
+            }
+          }
+        ],
+        "line": 4
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 7920,
+      "2": 1088,
+      "3": 6832
+    },
+    "f": {
+      "0": 7920
+    },
+    "b": {
+      "0": [
+        1088,
+        6832
+      ],
+      "1": [
+        7920,
+        7920
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c0ef9a77b2c450081dbdb0014bbf587be9b0bda2"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/utils/formatPhoneNumber.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/utils/formatPhoneNumber.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 32
+        },
+        "end": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 130
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 32
+          },
+          "end": {
+            "line": 1,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 77
+          },
+          "end": {
+            "line": 3,
+            "column": 1
+          }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 7930
+    },
+    "f": {
+      "0": 7930
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dd6880eefb64a7f6e9fd66caf7f6d4f443fa6ba3"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageTitleCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageTitleCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 30
+        },
+        "end": {
+          "line": 36,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 31
+        },
+        "end": {
+          "line": 16,
+          "column": 52
+        }
+      },
+      "2": {
+        "start": {
+          "line": 34,
+          "column": 25
+        },
+        "end": {
+          "line": 34,
+          "column": 65
+        }
+      },
+      "3": {
+        "start": {
+          "line": 38,
+          "column": 20
+        },
+        "end": {
+          "line": 48,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 50,
+          "column": 32
+        },
+        "end": {
+          "line": 76,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 51,
+          "column": 41
+        },
+        "end": {
+          "line": 51,
+          "column": 55
+        }
+      },
+      "6": {
+        "start": {
+          "line": 52,
+          "column": 17
+        },
+        "end": {
+          "line": 52,
+          "column": 28
+        }
+      },
+      "7": {
+        "start": {
+          "line": 53,
+          "column": 21
+        },
+        "end": {
+          "line": 53,
+          "column": 56
+        }
+      },
+      "8": {
+        "start": {
+          "line": 54,
+          "column": 15
+        },
+        "end": {
+          "line": 54,
+          "column": 55
+        }
+      },
+      "9": {
+        "start": {
+          "line": 55,
+          "column": 22
+        },
+        "end": {
+          "line": 55,
+          "column": 46
+        }
+      },
+      "10": {
+        "start": {
+          "line": 56,
+          "column": 2
+        },
+        "end": {
+          "line": 75,
+          "column": 26
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 19
+          },
+          "end": {
+            "line": 16,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 31
+          },
+          "end": {
+            "line": 16,
+            "column": 52
+          }
+        },
+        "line": 16
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 13
+          },
+          "end": {
+            "line": 34,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 25
+          },
+          "end": {
+            "line": 34,
+            "column": 65
+          }
+        },
+        "line": 34
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 32
+          },
+          "end": {
+            "line": 50,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 75
+          },
+          "end": {
+            "line": 76,
+            "column": 1
+          }
+        },
+        "line": 50
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 31
+          },
+          "end": {
+            "line": 16,
+            "column": 52
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 16,
+              "column": 38
+            },
+            "end": {
+              "line": 16,
+              "column": 43
+            }
+          },
+          {
+            "start": {
+              "line": 16,
+              "column": 46
+            },
+            "end": {
+              "line": 16,
+              "column": 52
+            }
+          }
+        ],
+        "line": 16
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 25
+          },
+          "end": {
+            "line": 34,
+            "column": 65
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 34,
+              "column": 32
+            },
+            "end": {
+              "line": 34,
+              "column": 50
+            }
+          },
+          {
+            "start": {
+              "line": 34,
+              "column": 53
+            },
+            "end": {
+              "line": 34,
+              "column": 65
+            }
+          }
+        ],
+        "line": 34
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 7
+          },
+          "end": {
+            "line": 71,
+            "column": 15
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 59,
+              "column": 8
+            },
+            "end": {
+              "line": 67,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 69,
+              "column": 8
+            },
+            "end": {
+              "line": 71,
+              "column": 15
+            }
+          }
+        ],
+        "line": 58
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 11
+          },
+          "end": {
+            "line": 65,
+            "column": 22
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 63,
+              "column": 11
+            },
+            "end": {
+              "line": 63,
+              "column": 22
+            }
+          },
+          {
+            "start": {
+              "line": 64,
+              "column": 12
+            },
+            "end": {
+              "line": 65,
+              "column": 21
+            }
+          }
+        ],
+        "line": 63
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 70,
+            "column": 24
+          },
+          "end": {
+            "line": 70,
+            "column": 59
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 70,
+              "column": 24
+            },
+            "end": {
+              "line": 70,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 70,
+              "column": 40
+            },
+            "end": {
+              "line": 70,
+              "column": 58
+            }
+          }
+        ],
+        "line": 70
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 7920,
+      "2": 7920,
+      "3": 14,
+      "4": 14,
+      "5": 7920,
+      "6": 7920,
+      "7": 7920,
+      "8": 7920,
+      "9": 7920,
+      "10": 7920
+    },
+    "f": {
+      "0": 7920,
+      "1": 7920,
+      "2": 7920
+    },
+    "b": {
+      "0": [
+        5920,
+        2000
+      ],
+      "1": [
+        5920,
+        2000
+      ],
+      "2": [
+        7920,
+        0
+      ],
+      "3": [
+        7920,
+        4408
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dedc4104ca140e6e928a0c7c896d6053e475c578"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageGenericCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageGenericCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 30,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 23,
+          "column": 45
+        },
+        "end": {
+          "line": 23,
+          "column": 107
+        }
+      },
+      "2": {
+        "start": {
+          "line": 24,
+          "column": 27
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 32,
+          "column": 33
+        },
+        "end": {
+          "line": 43,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 37,
+          "column": 23
+        },
+        "end": {
+          "line": 37,
+          "column": 56
+        }
+      },
+      "5": {
+        "start": {
+          "line": 45,
+          "column": 23
+        },
+        "end": {
+          "line": 47,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 48,
+          "column": 20
+        },
+        "end": {
+          "line": 57,
+          "column": 1
+        }
+      },
+      "7": {
+        "start": {
+          "line": 59,
+          "column": 24
+        },
+        "end": {
+          "line": 64,
+          "column": 1
+        }
+      },
+      "8": {
+        "start": {
+          "line": 63,
+          "column": 23
+        },
+        "end": {
+          "line": 63,
+          "column": 58
+        }
+      },
+      "9": {
+        "start": {
+          "line": 67,
+          "column": 34
+        },
+        "end": {
+          "line": 84,
+          "column": 1
+        }
+      },
+      "10": {
+        "start": {
+          "line": 68,
+          "column": 54
+        },
+        "end": {
+          "line": 68,
+          "column": 68
+        }
+      },
+      "11": {
+        "start": {
+          "line": 69,
+          "column": 17
+        },
+        "end": {
+          "line": 69,
+          "column": 28
+        }
+      },
+      "12": {
+        "start": {
+          "line": 70,
+          "column": 20
+        },
+        "end": {
+          "line": 70,
+          "column": 54
+        }
+      },
+      "13": {
+        "start": {
+          "line": 72,
+          "column": 2
+        },
+        "end": {
+          "line": 83,
+          "column": 25
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 22
+          },
+          "end": {
+            "line": 23,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 45
+          },
+          "end": {
+            "line": 23,
+            "column": 107
+          }
+        },
+        "line": 23
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 4
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 27
+          },
+          "end": {
+            "line": 29,
+            "column": 3
+          }
+        },
+        "line": 24
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 11
+          },
+          "end": {
+            "line": 37,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 23
+          },
+          "end": {
+            "line": 37,
+            "column": 56
+          }
+        },
+        "line": 37
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 63,
+            "column": 11
+          },
+          "end": {
+            "line": 63,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 23
+          },
+          "end": {
+            "line": 63,
+            "column": 58
+          }
+        },
+        "line": 63
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 67,
+            "column": 34
+          },
+          "end": {
+            "line": 67,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 67,
+            "column": 101
+          },
+          "end": {
+            "line": 84,
+            "column": 1
+          }
+        },
+        "line": 67
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 45
+          },
+          "end": {
+            "line": 23,
+            "column": 107
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 63
+            },
+            "end": {
+              "line": 23,
+              "column": 97
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 100
+            },
+            "end": {
+              "line": 23,
+              "column": 107
+            }
+          }
+        ],
+        "line": 23
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 27
+          },
+          "end": {
+            "line": 29,
+            "column": 3
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 27
+            },
+            "end": {
+              "line": 24,
+              "column": 43
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 47
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        ],
+        "line": 24
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 23
+          },
+          "end": {
+            "line": 37,
+            "column": 56
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 30
+            },
+            "end": {
+              "line": 37,
+              "column": 46
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 49
+            },
+            "end": {
+              "line": 37,
+              "column": 56
+            }
+          }
+        ],
+        "line": 37
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 23
+          },
+          "end": {
+            "line": 63,
+            "column": 58
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 63,
+              "column": 30
+            },
+            "end": {
+              "line": 63,
+              "column": 43
+            }
+          },
+          {
+            "start": {
+              "line": 63,
+              "column": 46
+            },
+            "end": {
+              "line": 63,
+              "column": 58
+            }
+          }
+        ],
+        "line": 63
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 7920,
+      "2": 7920,
+      "3": 14,
+      "4": 7920,
+      "5": 14,
+      "6": 14,
+      "7": 14,
+      "8": 7920,
+      "9": 14,
+      "10": 7920,
+      "11": 7920,
+      "12": 7920,
+      "13": 7920
+    },
+    "f": {
+      "0": 7920,
+      "1": 7920,
+      "2": 7920,
+      "3": 7920,
+      "4": 7920
+    },
+    "b": {
+      "0": [
+        30,
+        7890
+      ],
+      "1": [
+        7920,
+        7890
+      ],
+      "2": [
+        5920,
+        2000
+      ],
+      "3": [
+        5920,
+        2000
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8f8ad586860bb7630032c25774c704eef0d74d6f"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageEmailCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageEmailCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 32
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 85
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 29
+          },
+          "end": {
+            "line": 9,
+            "column": 59
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 44
+            },
+            "end": {
+              "line": 9,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 51
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 3512
+    },
+    "f": {
+      "0": 3512
+    },
+    "b": {
+      "0": [
+        2840,
+        672
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "524f85b3a6dbfecd824ecbdf217b27b46aa27e00"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageSmsCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageSmsCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 30
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 30
+          },
+          "end": {
+            "line": 4,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 83
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 25
+          },
+          "end": {
+            "line": 10,
+            "column": 55
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 40
+            },
+            "end": {
+              "line": 10,
+              "column": 44
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 47
+            },
+            "end": {
+              "line": 10,
+              "column": 55
+            }
+          }
+        ],
+        "line": 10
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 1704
+    },
+    "f": {
+      "0": 1704
+    },
+    "b": {
+      "0": [
+        1304,
+        400
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "cb95b29da31254a1edef1f4182d429c438f2b553"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessagePhoneCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessagePhoneCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 32
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 32
+          },
+          "end": {
+            "line": 4,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 85
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 65
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 50
+            },
+            "end": {
+              "line": 10,
+              "column": 54
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 57
+            },
+            "end": {
+              "line": 10,
+              "column": 65
+            }
+          }
+        ],
+        "line": 10
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 2704
+    },
+    "f": {
+      "0": 2704
+    },
+    "b": {
+      "0": [
+        1776,
+        928
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7b06a0079773a40ef07adaa66a38c05741f7b167"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageCard.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/Messages/MessageCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 27
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 9,
+          "column": 98
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 96
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 98
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 49
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 80
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 4
+            },
+            "end": {
+              "line": 9,
+              "column": 98
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "end": {
+              "line": 11,
+              "column": 96
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 13,
+              "column": 98
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "end": {
+              "line": 15,
+              "column": 49
+            }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 7920,
+      "2": 3512,
+      "3": 1704,
+      "4": 2704,
+      "5": 0
+    },
+    "f": {
+      "0": 7920
+    },
+    "b": {
+      "0": [
+        3512,
+        1704,
+        2704,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9936f563ce90362734cc435ceda1e17ff55df5a6"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/utils/deleteDuplicateMessages.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/utils/deleteDuplicateMessages.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 79
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 38
+        },
+        "end": {
+          "line": 4,
+          "column": 77
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 56
+        },
+        "end": {
+          "line": 4,
+          "column": 69
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 38
+          },
+          "end": {
+            "line": 3,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 74
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 4,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 38
+          },
+          "end": {
+            "line": 4,
+            "column": 77
+          }
+        },
+        "line": 4
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 50
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 56
+          },
+          "end": {
+            "line": 4,
+            "column": 69
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 93,
+      "2": 2930,
+      "3": 46315
+    },
+    "f": {
+      "0": 93,
+      "1": 2930,
+      "2": 46315
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "28b4e23b751f5454ff7aee1b865fb3ceaca0ba02"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/services/realtors.service.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/services/realtors.service.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 39
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 30
+        },
+        "end": {
+          "line": 8,
+          "column": 37
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 87
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 39
+          },
+          "end": {
+            "line": 7,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 114
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5b1c157b8250099e4e96998a905f4128d008d6eb"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/utils/replaceMessageForANewOne.ts": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/utils/replaceMessageForANewOne.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 40
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 77
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 47
+        },
+        "end": {
+          "line": 4,
+          "column": 75
+        }
+      },
+      "3": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 31
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 40
+          },
+          "end": {
+            "line": 3,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 88
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 47
+          },
+          "end": {
+            "line": 4,
+            "column": 75
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 1,
+      "2": 17,
+      "3": 1,
+      "4": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 17
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2dfd4632f3f3eefc322a76481bc99475e3422623"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListContainer.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 18,
+          "column": 26
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 35,
+          "column": 37
+        },
+        "end": {
+          "line": 129,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 36,
+          "column": 17
+        },
+        "end": {
+          "line": 36,
+          "column": 28
+        }
+      },
+      "3": {
+        "start": {
+          "line": 37,
+          "column": 21
+        },
+        "end": {
+          "line": 37,
+          "column": 62
+        }
+      },
+      "4": {
+        "start": {
+          "line": 38,
+          "column": 48
+        },
+        "end": {
+          "line": 38,
+          "column": 60
+        }
+      },
+      "5": {
+        "start": {
+          "line": 39,
+          "column": 34
+        },
+        "end": {
+          "line": 39,
+          "column": 59
+        }
+      },
+      "6": {
+        "start": {
+          "line": 40,
+          "column": 26
+        },
+        "end": {
+          "line": 40,
+          "column": 39
+        }
+      },
+      "7": {
+        "start": {
+          "line": 41,
+          "column": 62
+        },
+        "end": {
+          "line": 41,
+          "column": 77
+        }
+      },
+      "8": {
+        "start": {
+          "line": 42,
+          "column": 32
+        },
+        "end": {
+          "line": 42,
+          "column": 47
+        }
+      },
+      "9": {
+        "start": {
+          "line": 43,
+          "column": 23
+        },
+        "end": {
+          "line": 43,
+          "column": 45
+        }
+      },
+      "10": {
+        "start": {
+          "line": 43,
+          "column": 29
+        },
+        "end": {
+          "line": 43,
+          "column": 45
+        }
+      },
+      "11": {
+        "start": {
+          "line": 44,
+          "column": 22
+        },
+        "end": {
+          "line": 44,
+          "column": 45
+        }
+      },
+      "12": {
+        "start": {
+          "line": 44,
+          "column": 28
+        },
+        "end": {
+          "line": 44,
+          "column": 45
+        }
+      },
+      "13": {
+        "start": {
+          "line": 46,
+          "column": 2
+        },
+        "end": {
+          "line": 53,
+          "column": 8
+        }
+      },
+      "14": {
+        "start": {
+          "line": 47,
+          "column": 4
+        },
+        "end": {
+          "line": 47,
+          "column": 55
+        }
+      },
+      "15": {
+        "start": {
+          "line": 48,
+          "column": 4
+        },
+        "end": {
+          "line": 48,
+          "column": 57
+        }
+      },
+      "16": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": 5
+        }
+      },
+      "17": {
+        "start": {
+          "line": 50,
+          "column": 6
+        },
+        "end": {
+          "line": 50,
+          "column": 58
+        }
+      },
+      "18": {
+        "start": {
+          "line": 51,
+          "column": 6
+        },
+        "end": {
+          "line": 51,
+          "column": 60
+        }
+      },
+      "19": {
+        "start": {
+          "line": 55,
+          "column": 2
+        },
+        "end": {
+          "line": 72,
+          "column": 46
+        }
+      },
+      "20": {
+        "start": {
+          "line": 56,
+          "column": 4
+        },
+        "end": {
+          "line": 64,
+          "column": 5
+        }
+      },
+      "21": {
+        "start": {
+          "line": 57,
+          "column": 6
+        },
+        "end": {
+          "line": 61,
+          "column": 7
+        }
+      },
+      "22": {
+        "start": {
+          "line": 58,
+          "column": 8
+        },
+        "end": {
+          "line": 58,
+          "column": 38
+        }
+      },
+      "23": {
+        "start": {
+          "line": 60,
+          "column": 8
+        },
+        "end": {
+          "line": 60,
+          "column": 34
+        }
+      },
+      "24": {
+        "start": {
+          "line": 62,
+          "column": 6
+        },
+        "end": {
+          "line": 62,
+          "column": 101
+        }
+      },
+      "25": {
+        "start": {
+          "line": 63,
+          "column": 6
+        },
+        "end": {
+          "line": 63,
+          "column": 98
+        }
+      },
+      "26": {
+        "start": {
+          "line": 65,
+          "column": 4
+        },
+        "end": {
+          "line": 68,
+          "column": 5
+        }
+      },
+      "27": {
+        "start": {
+          "line": 66,
+          "column": 6
+        },
+        "end": {
+          "line": 66,
+          "column": 38
+        }
+      },
+      "28": {
+        "start": {
+          "line": 67,
+          "column": 6
+        },
+        "end": {
+          "line": 67,
+          "column": 101
+        }
+      },
+      "29": {
+        "start": {
+          "line": 69,
+          "column": 4
+        },
+        "end": {
+          "line": 71,
+          "column": 5
+        }
+      },
+      "30": {
+        "start": {
+          "line": 70,
+          "column": 6
+        },
+        "end": {
+          "line": 70,
+          "column": 100
+        }
+      },
+      "31": {
+        "start": {
+          "line": 75,
+          "column": 23
+        },
+        "end": {
+          "line": 85,
+          "column": 3
+        }
+      },
+      "32": {
+        "start": {
+          "line": 76,
+          "column": 26
+        },
+        "end": {
+          "line": 76,
+          "column": 75
+        }
+      },
+      "33": {
+        "start": {
+          "line": 77,
+          "column": 31
+        },
+        "end": {
+          "line": 77,
+          "column": 91
+        }
+      },
+      "34": {
+        "start": {
+          "line": 79,
+          "column": 4
+        },
+        "end": {
+          "line": 84,
+          "column": 5
+        }
+      },
+      "35": {
+        "start": {
+          "line": 80,
+          "column": 34
+        },
+        "end": {
+          "line": 80,
+          "column": 86
+        }
+      },
+      "36": {
+        "start": {
+          "line": 81,
+          "column": 6
+        },
+        "end": {
+          "line": 83,
+          "column": 7
+        }
+      },
+      "37": {
+        "start": {
+          "line": 82,
+          "column": 8
+        },
+        "end": {
+          "line": 82,
+          "column": 30
+        }
+      },
+      "38": {
+        "start": {
+          "line": 87,
+          "column": 30
+        },
+        "end": {
+          "line": 98,
+          "column": 3
+        }
+      },
+      "39": {
+        "start": {
+          "line": 88,
+          "column": 18
+        },
+        "end": {
+          "line": 88,
+          "column": 30
+        }
+      },
+      "40": {
+        "start": {
+          "line": 89,
+          "column": 20
+        },
+        "end": {
+          "line": 89,
+          "column": 38
+        }
+      },
+      "41": {
+        "start": {
+          "line": 90,
+          "column": 4
+        },
+        "end": {
+          "line": 90,
+          "column": 32
+        }
+      },
+      "42": {
+        "start": {
+          "line": 91,
+          "column": 4
+        },
+        "end": {
+          "line": 91,
+          "column": 36
+        }
+      },
+      "43": {
+        "start": {
+          "line": 92,
+          "column": 4
+        },
+        "end": {
+          "line": 97,
+          "column": 6
+        }
+      },
+      "44": {
+        "start": {
+          "line": 100,
+          "column": 38
+        },
+        "end": {
+          "line": 109,
+          "column": 3
+        }
+      },
+      "45": {
+        "start": {
+          "line": 101,
+          "column": 4
+        },
+        "end": {
+          "line": 101,
+          "column": 35
+        }
+      },
+      "46": {
+        "start": {
+          "line": 102,
+          "column": 4
+        },
+        "end": {
+          "line": 102,
+          "column": 17
+        }
+      },
+      "47": {
+        "start": {
+          "line": 103,
+          "column": 4
+        },
+        "end": {
+          "line": 103,
+          "column": 37
+        }
+      },
+      "48": {
+        "start": {
+          "line": 104,
+          "column": 4
+        },
+        "end": {
+          "line": 108,
+          "column": 5
+        }
+      },
+      "49": {
+        "start": {
+          "line": 105,
+          "column": 6
+        },
+        "end": {
+          "line": 105,
+          "column": 37
+        }
+      },
+      "50": {
+        "start": {
+          "line": 107,
+          "column": 6
+        },
+        "end": {
+          "line": 107,
+          "column": 22
+        }
+      },
+      "51": {
+        "start": {
+          "line": 111,
+          "column": 34
+        },
+        "end": {
+          "line": 113,
+          "column": 3
+        }
+      },
+      "52": {
+        "start": {
+          "line": 112,
+          "column": 4
+        },
+        "end": {
+          "line": 112,
+          "column": 72
+        }
+      },
+      "53": {
+        "start": {
+          "line": 115,
+          "column": 37
+        },
+        "end": {
+          "line": 115,
+          "column": 64
+        }
+      },
+      "54": {
+        "start": {
+          "line": 116,
+          "column": 33
+        },
+        "end": {
+          "line": 123,
+          "column": 3
+        }
+      },
+      "55": {
+        "start": {
+          "line": 117,
+          "column": 4
+        },
+        "end": {
+          "line": 122,
+          "column": 5
+        }
+      },
+      "56": {
+        "start": {
+          "line": 118,
+          "column": 6
+        },
+        "end": {
+          "line": 121,
+          "column": 9
+        }
+      },
+      "57": {
+        "start": {
+          "line": 119,
+          "column": 8
+        },
+        "end": {
+          "line": 119,
+          "column": 62
+        }
+      },
+      "58": {
+        "start": {
+          "line": 120,
+          "column": 8
+        },
+        "end": {
+          "line": 120,
+          "column": 45
+        }
+      },
+      "59": {
+        "start": {
+          "line": 124,
+          "column": 2
+        },
+        "end": {
+          "line": 128,
+          "column": 22
+        }
+      },
+      "60": {
+        "start": {
+          "line": 125,
+          "column": 52
+        },
+        "end": {
+          "line": 126,
+          "column": 129
+        }
+      },
+      "61": {
+        "start": {
+          "line": 126,
+          "column": 95
+        },
+        "end": {
+          "line": 126,
+          "column": 126
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 37
+          },
+          "end": {
+            "line": 35,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 85
+          },
+          "end": {
+            "line": 129,
+            "column": 1
+          }
+        },
+        "line": 35
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 23
+          },
+          "end": {
+            "line": 43,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 29
+          },
+          "end": {
+            "line": 43,
+            "column": 45
+          }
+        },
+        "line": 43
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 22
+          },
+          "end": {
+            "line": 44,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 28
+          },
+          "end": {
+            "line": 44,
+            "column": 45
+          }
+        },
+        "line": 44
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 46,
+            "column": 12
+          },
+          "end": {
+            "line": 46,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 18
+          },
+          "end": {
+            "line": 53,
+            "column": 3
+          }
+        },
+        "line": 46
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 49,
+            "column": 11
+          },
+          "end": {
+            "line": 49,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 17
+          },
+          "end": {
+            "line": 52,
+            "column": 5
+          }
+        },
+        "line": 49
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 55,
+            "column": 12
+          },
+          "end": {
+            "line": 55,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 18
+          },
+          "end": {
+            "line": 72,
+            "column": 3
+          }
+        },
+        "line": 55
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 69,
+            "column": 11
+          },
+          "end": {
+            "line": 69,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 69,
+            "column": 17
+          },
+          "end": {
+            "line": 71,
+            "column": 5
+          }
+        },
+        "line": 69
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 75,
+            "column": 23
+          },
+          "end": {
+            "line": 75,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 75,
+            "column": 29
+          },
+          "end": {
+            "line": 85,
+            "column": 3
+          }
+        },
+        "line": 75
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 87,
+            "column": 30
+          },
+          "end": {
+            "line": 87,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 87,
+            "column": 36
+          },
+          "end": {
+            "line": 98,
+            "column": 3
+          }
+        },
+        "line": 87
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 100,
+            "column": 38
+          },
+          "end": {
+            "line": 100,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 100,
+            "column": 44
+          },
+          "end": {
+            "line": 109,
+            "column": 3
+          }
+        },
+        "line": 100
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 111,
+            "column": 34
+          },
+          "end": {
+            "line": 111,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 111,
+            "column": 40
+          },
+          "end": {
+            "line": 113,
+            "column": 3
+          }
+        },
+        "line": 111
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 116,
+            "column": 33
+          },
+          "end": {
+            "line": 116,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 116,
+            "column": 55
+          },
+          "end": {
+            "line": 123,
+            "column": 3
+          }
+        },
+        "line": 116
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 118,
+            "column": 56
+          },
+          "end": {
+            "line": 118,
+            "column": 57
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 118,
+            "column": 92
+          },
+          "end": {
+            "line": 121,
+            "column": 7
+          }
+        },
+        "line": 118
+      },
+      "13": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": {
+            "line": 125,
+            "column": 30
+          },
+          "end": {
+            "line": 125,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 125,
+            "column": 52
+          },
+          "end": {
+            "line": 126,
+            "column": 129
+          }
+        },
+        "line": 125
+      },
+      "14": {
+        "name": "(anonymous_14)",
+        "decl": {
+          "start": {
+            "line": 126,
+            "column": 89
+          },
+          "end": {
+            "line": 126,
+            "column": 90
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 126,
+            "column": 95
+          },
+          "end": {
+            "line": 126,
+            "column": 126
+          }
+        },
+        "line": 126
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 21
+          },
+          "end": {
+            "line": 37,
+            "column": 62
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 21
+            },
+            "end": {
+              "line": 37,
+              "column": 56
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 60
+            },
+            "end": {
+              "line": 37,
+              "column": 62
+            }
+          }
+        ],
+        "line": 37
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 4
+          },
+          "end": {
+            "line": 64,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 56,
+              "column": 4
+            },
+            "end": {
+              "line": 64,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 56
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 8
+          },
+          "end": {
+            "line": 56,
+            "column": 83
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 56,
+              "column": 9
+            },
+            "end": {
+              "line": 56,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 56,
+              "column": 25
+            },
+            "end": {
+              "line": 56,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 56,
+              "column": 53
+            },
+            "end": {
+              "line": 56,
+              "column": 83
+            }
+          }
+        ],
+        "line": 56
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 57,
+            "column": 6
+          },
+          "end": {
+            "line": 61,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 57,
+              "column": 6
+            },
+            "end": {
+              "line": 61,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 59,
+              "column": 13
+            },
+            "end": {
+              "line": 61,
+              "column": 7
+            }
+          }
+        ],
+        "line": 57
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 65,
+            "column": 4
+          },
+          "end": {
+            "line": 68,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 65,
+              "column": 4
+            },
+            "end": {
+              "line": 68,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 65
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 79,
+            "column": 4
+          },
+          "end": {
+            "line": 84,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 79,
+              "column": 4
+            },
+            "end": {
+              "line": 84,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 79
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 79,
+            "column": 8
+          },
+          "end": {
+            "line": 79,
+            "column": 60
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 79,
+              "column": 8
+            },
+            "end": {
+              "line": 79,
+              "column": 26
+            }
+          },
+          {
+            "start": {
+              "line": 79,
+              "column": 30
+            },
+            "end": {
+              "line": 79,
+              "column": 60
+            }
+          }
+        ],
+        "line": 79
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 6
+          },
+          "end": {
+            "line": 83,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 81,
+              "column": 6
+            },
+            "end": {
+              "line": 83,
+              "column": 7
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 81
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 10
+          },
+          "end": {
+            "line": 81,
+            "column": 72
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 81,
+              "column": 10
+            },
+            "end": {
+              "line": 81,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 81,
+              "column": 64
+            },
+            "end": {
+              "line": 81,
+              "column": 72
+            }
+          }
+        ],
+        "line": 81
+      },
+      "9": {
+        "loc": {
+          "start": {
+            "line": 104,
+            "column": 4
+          },
+          "end": {
+            "line": 108,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 104,
+              "column": 4
+            },
+            "end": {
+              "line": 108,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 106,
+              "column": 11
+            },
+            "end": {
+              "line": 108,
+              "column": 5
+            }
+          }
+        ],
+        "line": 104
+      },
+      "10": {
+        "loc": {
+          "start": {
+            "line": 117,
+            "column": 4
+          },
+          "end": {
+            "line": 122,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 117,
+              "column": 4
+            },
+            "end": {
+              "line": 122,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 117
+      },
+      "11": {
+        "loc": {
+          "start": {
+            "line": 117,
+            "column": 8
+          },
+          "end": {
+            "line": 117,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 117,
+              "column": 8
+            },
+            "end": {
+              "line": 117,
+              "column": 18
+            }
+          },
+          {
+            "start": {
+              "line": 117,
+              "column": 22
+            },
+            "end": {
+              "line": 117,
+              "column": 35
+            }
+          }
+        ],
+        "line": 117
+      },
+      "12": {
+        "loc": {
+          "start": {
+            "line": 125,
+            "column": 5
+          },
+          "end": {
+            "line": 126,
+            "column": 130
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 125,
+              "column": 5
+            },
+            "end": {
+              "line": 125,
+              "column": 13
+            }
+          },
+          {
+            "start": {
+              "line": 125,
+              "column": 17
+            },
+            "end": {
+              "line": 126,
+              "column": 130
+            }
+          }
+        ],
+        "line": 125
+      },
+      "13": {
+        "loc": {
+          "start": {
+            "line": 127,
+            "column": 5
+          },
+          "end": {
+            "line": 127,
+            "column": 65
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 127,
+              "column": 5
+            },
+            "end": {
+              "line": 127,
+              "column": 12
+            }
+          },
+          {
+            "start": {
+              "line": 127,
+              "column": 16
+            },
+            "end": {
+              "line": 127,
+              "column": 65
+            }
+          }
+        ],
+        "line": 127
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 424,
+      "3": 424,
+      "4": 424,
+      "5": 424,
+      "6": 424,
+      "7": 424,
+      "8": 424,
+      "9": 424,
+      "10": 34,
+      "11": 424,
+      "12": 34,
+      "13": 424,
+      "14": 14,
+      "15": 14,
+      "16": 14,
+      "17": 0,
+      "18": 0,
+      "19": 424,
+      "20": 123,
+      "21": 109,
+      "22": 16,
+      "23": 93,
+      "24": 109,
+      "25": 109,
+      "26": 123,
+      "27": 0,
+      "28": 0,
+      "29": 123,
+      "30": 109,
+      "31": 424,
+      "32": 24,
+      "33": 24,
+      "34": 24,
+      "35": 24,
+      "36": 24,
+      "37": 20,
+      "38": 424,
+      "39": 20,
+      "40": 20,
+      "41": 20,
+      "42": 20,
+      "43": 20,
+      "44": 424,
+      "45": 16,
+      "46": 16,
+      "47": 16,
+      "48": 16,
+      "49": 16,
+      "50": 0,
+      "51": 424,
+      "52": 93,
+      "53": 424,
+      "54": 424,
+      "55": 5,
+      "56": 1,
+      "57": 1,
+      "58": 1,
+      "59": 424,
+      "60": 7920,
+      "61": 5
+    },
+    "f": {
+      "0": 424,
+      "1": 34,
+      "2": 34,
+      "3": 14,
+      "4": 0,
+      "5": 123,
+      "6": 109,
+      "7": 24,
+      "8": 20,
+      "9": 16,
+      "10": 93,
+      "11": 5,
+      "12": 1,
+      "13": 7920,
+      "14": 5
+    },
+    "b": {
+      "0": [
+        424,
+        28
+      ],
+      "1": [
+        109,
+        14
+      ],
+      "2": [
+        123,
+        109,
+        14
+      ],
+      "3": [
+        16,
+        93
+      ],
+      "4": [
+        0,
+        123
+      ],
+      "5": [
+        24,
+        0
+      ],
+      "6": [
+        24,
+        24
+      ],
+      "7": [
+        20,
+        4
+      ],
+      "8": [
+        24,
+        20
+      ],
+      "9": [
+        16,
+        0
+      ],
+      "10": [
+        1,
+        4
+      ],
+      "11": [
+        5,
+        5
+      ],
+      "12": [
+        424,
+        424
+      ],
+      "13": [
+        424,
+        192
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8123568e42129d5db23e62d0901aa975a4260f97"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListLayout.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListLayout.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 63
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 4,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 75
+          },
+          "end": {
+            "line": 6,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 96
+    },
+    "f": {
+      "0": 96
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b9815b68a8a57e3899e32a7249abb3a8da694d6e"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/ContentContainer.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/ContentContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 14
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e6ffc417d879c53a694d978ae2cb92bcf84f1b99"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/AppContainer.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/common/AppContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 28
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 14
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a77a5aa0cc3a08e3b46546176f3ded0f6b899490"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/pages/_app.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/pages/_app.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 22
+        }
+      },
+      "1": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 17
+        }
+      },
+      "2": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 33,
+          "column": 19
+        },
+        "end": {
+          "line": 33,
+          "column": 56
+        }
+      },
+      "4": {
+        "start": {
+          "line": 34,
+          "column": 14
+        },
+        "end": {
+          "line": 34,
+          "column": 39
+        }
+      },
+      "5": {
+        "start": {
+          "line": 35,
+          "column": 19
+        },
+        "end": {
+          "line": 35,
+          "column": 35
+        }
+      },
+      "6": {
+        "start": {
+          "line": 36,
+          "column": 2
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MyApp",
+        "decl": {
+          "start": {
+            "line": 19,
+            "column": 9
+          },
+          "end": {
+            "line": 19,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 65
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 19
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 24
+          },
+          "end": {
+            "line": 32,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 52
+          },
+          "end": {
+            "line": 40,
+            "column": 1
+          }
+        },
+        "line": 32
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 96,
+      "1": 96,
+      "2": 14,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "f": {
+      "0": 96,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4825627e9d3529880dda76be45a0b02f24366aaf"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/index.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 5
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Realtors",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 9
+          },
+          "end": {
+            "line": 1,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14
+    },
+    "f": {
+      "0": 14
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "da2fbbb77bf042fbbfd6a4ff867a248b06eed23d"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageHeader.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageHeader.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 31
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 20,
+          "column": 27
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 26,
+          "column": 29
+        },
+        "end": {
+          "line": 28,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 30,
+          "column": 33
+        },
+        "end": {
+          "line": 45,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 47,
+          "column": 26
+        },
+        "end": {
+          "line": 49,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 51,
+          "column": 29
+        },
+        "end": {
+          "line": 68,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 52,
+          "column": 26
+        },
+        "end": {
+          "line": 52,
+          "column": 33
+        }
+      },
+      "7": {
+        "start": {
+          "line": 53,
+          "column": 2
+        },
+        "end": {
+          "line": 67,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 29
+          },
+          "end": {
+            "line": 51,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 66
+          },
+          "end": {
+            "line": 68,
+            "column": 1
+          }
+        },
+        "line": 51
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 14,
+      "4": 14,
+      "5": 14,
+      "6": 10,
+      "7": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ffdb8d11bf985e6252bb6c1d770e8b55db976735"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageBody.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageBody.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 25
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 27,
+          "column": 24
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 36,
+          "column": 23
+        },
+        "end": {
+          "line": 43,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 44,
+          "column": 27
+        },
+        "end": {
+          "line": 52,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 27
+          },
+          "end": {
+            "line": 44,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 63
+          },
+          "end": {
+            "line": 52,
+            "column": 1
+          }
+        },
+        "line": 44
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 14,
+      "4": 14,
+      "5": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c9258bcfda0b913c627e48560a15f0c5618e9097"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageDetail.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageDetail/MessageDetail.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 31
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 20,
+          "column": 32
+        },
+        "end": {
+          "line": 20,
+          "column": 55
+        }
+      },
+      "2": {
+        "start": {
+          "line": 25,
+          "column": 29
+        },
+        "end": {
+          "line": 32,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 28
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 15
+          },
+          "end": {
+            "line": 20,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 32
+          },
+          "end": {
+            "line": 20,
+            "column": 55
+          }
+        },
+        "line": 20
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 29
+          },
+          "end": {
+            "line": 25,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 78
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 32
+          },
+          "end": {
+            "line": 20,
+            "column": 55
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 20,
+              "column": 44
+            },
+            "end": {
+              "line": 20,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 20,
+              "column": 51
+            },
+            "end": {
+              "line": 20,
+              "column": 55
+            }
+          }
+        ],
+        "line": 20
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 5
+          },
+          "end": {
+            "line": 29,
+            "column": 48
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 5
+            },
+            "end": {
+              "line": 27,
+              "column": 18
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 23
+            },
+            "end": {
+              "line": 29,
+              "column": 47
+            }
+          }
+        ],
+        "line": 27
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 82,
+      "2": 14,
+      "3": 82
+    },
+    "f": {
+      "0": 82,
+      "1": 82
+    },
+    "b": {
+      "0": [
+        10,
+        72
+      ],
+      "1": [
+        82,
+        10
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d6c401bb0e66468078f959e1344179cfe88f5b2a"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/[realtorsId]/index.tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/[realtorsId]/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 25
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "RealtorsDetail",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 9
+          },
+          "end": {
+            "line": 4,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 72
+    },
+    "f": {
+      "0": 72
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "74921a564fb4d23b34e6224a0886b08da37c3237"
+  },
+  "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/[realtorsId]/messages/[messageId].tsx": {
+    "path": "/Users/itekhaj/Programme/test/meilleursagents/front/pages/realtors/[realtorsId]/messages/[messageId].tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 55
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MessagesDetail",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 9
+          },
+          "end": {
+            "line": 4,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 41
+          },
+          "end": {
+            "line": 6,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "429e31eb924587d7e0e49da5ae3ed77009fba922"
+  }
+}

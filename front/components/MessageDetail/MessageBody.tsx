@@ -43,7 +43,7 @@ const MessageContent = styled.p `
 `
 export const MessageBody = ({message} : {message: Message}) => {
   return (
-    <MessageBodyContainer>
+    <MessageBodyContainer  data-cy="message-detail-body">
       <MessageBodyTitle>{message.contact.firstname} {message.contact.lastname}</MessageBodyTitle>
       <MessageDateTime>{moment(message.date).format('Do MMMM YYYY à hh:mm')}</MessageDateTime>
       <MessageContent>{message.body}</MessageContent>

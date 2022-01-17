@@ -50,7 +50,7 @@ const MessageHeaderLogo = styled.div`
 
 export const MessageHeader = ({message}: { message: Message }) => {
   const {contact, type} = message
-  return <MessageHeaderContainer>
+  return <MessageHeaderContainer data-cy="message-detail-header">
     <MessageHeaderLogo>
       <MessageLogo type={type} read={true}/>
     </MessageHeaderLogo>

@@ -69,7 +69,7 @@ export const MessageGenericCard = ({genericMessage, handleClickMessageCard}: Gen
   const router = useRouter();
   const messageId = router.query.messageId?.toString();
 
-  return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard}>
+  return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard} data-cy-read={read}>
     <MessageTypeLogo read={read} role="img" aria-label={genericMessage.description}><MessageLogo type={type} read={read}/></MessageTypeLogo>
     <MessageMainBodyContainer read={read}>
       <MessageTitleCard genericMessage={genericMessage}/>
