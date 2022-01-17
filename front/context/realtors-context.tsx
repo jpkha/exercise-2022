@@ -23,7 +23,7 @@ export const RealtorsProvider = ({children, realtors: realtorsRes}) => {
     setRealtors,
     realtorHasReadOneMessage
   }
-  return <RealtorsContext.Provider value = {value}> {children} < /RealtorsContext.Provider>
+  return <RealtorsContext.Provider value = {value}> {children} </RealtorsContext.Provider>
 
 }
 

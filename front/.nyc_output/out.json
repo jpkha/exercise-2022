@@ -1493,8 +1493,8 @@
       "0": 14,
       "1": 7930,
       "2": 3520,
-      "3": 1706,
-      "4": 2704,
+      "3": 1704,
+      "4": 2706,
       "5": 0
     },
     "f": {
@@ -1503,8 +1503,8 @@
     "b": {
       "0": [
         3520,
-        1706,
-        2704,
+        1704,
+        2706,
         0
       ],
       "1": [
@@ -2127,12 +2127,12 @@
     },
     "b": {
       "0": [
-        5920,
-        2000
+        6136,
+        1784
       ],
       "1": [
-        5920,
-        2000
+        6136,
+        1784
       ],
       "2": [
         7920,
@@ -2595,12 +2595,12 @@
         7890
       ],
       "2": [
-        5920,
-        2000
+        6136,
+        1784
       ],
       "3": [
-        5920,
-        2000
+        6136,
+        1784
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -2807,8 +2807,8 @@
     },
     "b": {
       "0": [
-        1304,
-        400
+        1512,
+        192
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -2911,8 +2911,8 @@
     },
     "b": {
       "0": [
-        1776,
-        928
+        1784,
+        920
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -3376,7 +3376,7 @@
         "loc": {
           "start": {
             "line": 3,
-            "column": 88
+            "column": 97
           },
           "end": {
             "line": 7,
@@ -3414,17 +3414,17 @@
     "s": {
       "0": 14,
       "1": 1,
-      "2": 17,
+      "2": 19,
       "3": 1,
       "4": 1
     },
     "f": {
       "0": 1,
-      "1": 17
+      "1": 19
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2dfd4632f3f3eefc322a76481bc99475e3422623"
+    "hash": "637073cab7ee129f814b6eb3b77a58d3492b64b9"
   },
   "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListContainer.tsx": {
     "path": "/Users/itekhaj/Programme/test/meilleursagents/front/components/MessageList/MessageListContainer.tsx",
