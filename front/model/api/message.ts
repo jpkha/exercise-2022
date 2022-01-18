@@ -1,3 +1,5 @@
+export type MessageType = "email" | "sms" | "phone";
+
 export interface Contact {
   email: string;
   firstname: string;
@@ -9,8 +11,8 @@ export interface Message {
   body: string;
   contact: Contact;
   date: Date;
-  id: string;
+  id: number;
   read: boolean;
   subject: string;
-  type: string;
+  type: MessageType;
 }

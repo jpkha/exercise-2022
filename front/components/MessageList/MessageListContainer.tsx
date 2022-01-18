@@ -121,9 +121,12 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
       });
     }
   }
-  return <MessagesContainer id="message-list-container" data-cy="message-list-container">
-    {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
-                                                                 handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
+  return <MessagesContainer id="message-list-container" data-testid="message-list-container">
+    {messages && messages.map((message: Message) =>
+      <MessageCard
+        key={message.id}
+        message={message}
+        handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
     {loading && <h3 style={{textAlign: 'center'}}>Loading...</h3>}
   </MessagesContainer>
 }

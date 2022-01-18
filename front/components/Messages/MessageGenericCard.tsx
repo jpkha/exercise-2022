@@ -65,12 +65,18 @@ const MessageTypeLogo = styled.div`
 
 
 export const MessageGenericCard = ({genericMessage, handleClickMessageCard}: GenericMessageProps) => {
-  const {messageContentTitle, body, read, id, type} = genericMessage;
+  const {messageContentTitle, body, read, id, type, title} = genericMessage;
   const router = useRouter();
   const messageId = router.query.messageId?.toString();
 
-  return <MessageCardContainer selectedMessage={messageId === id.toString()} onClick={handleClickMessageCard} data-cy-read={read}>
-    <MessageTypeLogo read={read} role="img" aria-label={genericMessage.description}><MessageLogo type={type} read={read}/></MessageTypeLogo>
+  return <MessageCardContainer
+    aria-label={`${genericMessage.description} de ${title || genericMessage.phone}`}
+    selectedMessage={messageId === id.toString()}
+    onClick={handleClickMessageCard}
+    data-testid-read={read}
+  >
+    <MessageTypeLogo read={read} role="img" aria-label={`Icône ${genericMessage.description}`}><MessageLogo type={type}
+                                                                                                            read={read}/></MessageTypeLogo>
     <MessageMainBodyContainer read={read}>
       <MessageTitleCard genericMessage={genericMessage}/>
       <MessageContent>

@@ -66,11 +66,11 @@ export const MessageTitleCard = ({genericMessage}: GenericMessageProps) => {
           }
         </>
         :
-        <Link href={link}>
-          <MessageLink>{parsedPhone && (<>{parsedPhone}</>)}</MessageLink>
+        <Link href={link} passHref>
+          <MessageLink>{parsedPhone && <>{parsedPhone}</>}</MessageLink>
         </Link>
       }
     </h2>
-    <time> {relativeDateTime(date)}</time>
+    <time>{relativeDateTime(date)}</time>
   </MessageTitleContainer>
 }

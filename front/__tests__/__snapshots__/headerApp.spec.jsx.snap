@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderApp renders correctly a heading 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+       
+      <header
+        class="sc-jRQBWg bPQgQj"
+      >
+        <div
+          class="sc-hKwDye hGxwYb"
+        >
+          <h1
+            class="sc-eCImPb jtYecN"
+          >
+            <a
+              href="/realtors/101"
+              title="Revenir à la messagerie"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  alt="logo de Meilleurs agents"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                />
+                <noscript />
+              </span>
+            </a>
+          </h1>
+        </div>
+        <div
+          class="sc-gKclnd bQLyGH"
+          data-testid="unread-message"
+        >
+          <i
+            class="mypro-icon mypro-icon-inbox"
+          />
+          55
+        </div>
+        <div
+          class="sc-gsDKAQ feabsB"
+        >
+          <label
+            class="sc-bdvvtL bmZBfL"
+            for="agency-select"
+          >
+            Choississez une agence:
+          </label>
+          <select
+            class="sc-dkPtRN iwAvwK"
+            data-testid="select-realtors"
+            id="agency-select"
+            name="agencies"
+          >
+            <option
+              value=""
+            >
+              -- Choissisez une option--
+            </option>
+            <option
+              value="101"
+            >
+               Agence 101
+            </option>
+            <option
+              value="102"
+            >
+               Agence 102
+            </option>
+            <option
+              value="103"
+            >
+               Agence 103
+            </option>
+          </select>
+        </div>
+      </header>
+       
+    </div>
+  </body>,
+  "container": <div>
+     
+    <header
+      class="sc-jRQBWg bPQgQj"
+    >
+      <div
+        class="sc-hKwDye hGxwYb"
+      >
+        <h1
+          class="sc-eCImPb jtYecN"
+        >
+          <a
+            href="/realtors/101"
+            title="Revenir à la messagerie"
+          >
+            <span
+              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+            >
+              <img
+                alt="logo de Meilleurs agents"
+                data-nimg="fill"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+              />
+              <noscript />
+            </span>
+          </a>
+        </h1>
+      </div>
+      <div
+        class="sc-gKclnd bQLyGH"
+        data-testid="unread-message"
+      >
+        <i
+          class="mypro-icon mypro-icon-inbox"
+        />
+        55
+      </div>
+      <div
+        class="sc-gsDKAQ feabsB"
+      >
+        <label
+          class="sc-bdvvtL bmZBfL"
+          for="agency-select"
+        >
+          Choississez une agence:
+        </label>
+        <select
+          class="sc-dkPtRN iwAvwK"
+          data-testid="select-realtors"
+          id="agency-select"
+          name="agencies"
+        >
+          <option
+            value=""
+          >
+            -- Choissisez une option--
+          </option>
+          <option
+            value="101"
+          >
+             Agence 101
+          </option>
+          <option
+            value="102"
+          >
+             Agence 102
+          </option>
+          <option
+            value="103"
+          >
+             Agence 103
+          </option>
+        </select>
+      </div>
+    </header>
+     
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

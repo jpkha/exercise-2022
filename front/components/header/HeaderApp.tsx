@@ -40,7 +40,7 @@ export const HeaderApp = () => {
     <HeaderContainer>
       <LogoMeilleursAgents realtorsId={realtorsId}/>
       {selectedRealtor &&
-      <UnreadMessageContainer emptyBox={selectedRealtor.unread_messages === 0} data-cy="unread-message">
+      <UnreadMessageContainer emptyBox={selectedRealtor.unread_messages === 0} data-testid="unread-message">
           <i className="mypro-icon mypro-icon-inbox"></i>{selectedRealtor.unread_messages}
       </UnreadMessageContainer>
       }
