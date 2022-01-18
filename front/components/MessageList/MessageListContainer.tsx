@@ -24,7 +24,7 @@ const MessagesContainer = styled.ul`
   margin: 0;
   position: relative;
   z-index: 1;
-  flex: 0 0 375px;
+  flex: 0 0 23.4375rem;
   list-style-type: none;
   @media ${devicesMaxWidth.tablet} {
     flex: 1 1 auto;
@@ -113,7 +113,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
   }
 
   const {realtorHasReadOneMessage} = useContext(RealtorsContext);
-  const handleClickMessageCard = (message: Message) => {
+  const handleClickMessageCard = (message: Message): void => {
     if (realtorsId && !message.read) {
       hasReadSpecificMessages(realtorsId, message).then(({data}: AxiosResponse<Message>) => {
         setMessages(replaceMessageForANewOne(messages, data));
@@ -121,7 +121,7 @@ export const MessagesListContainer = ({messagesData}: MessagesListContainerProps
       });
     }
   }
-  return <MessagesContainer id="message-list-container" data-cy="message-list-container" tabindex="10">
+  return <MessagesContainer id="message-list-container" data-cy="message-list-container">
     {messages && messages.map((message: Message) => <MessageCard key={message.id} message={message}
                                                                  handleClickMessageCard={() => handleClickMessageCard(message)}/>)}
     {loading && <h3 style={{textAlign: 'center'}}>Loading...</h3>}

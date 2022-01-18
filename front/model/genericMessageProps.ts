@@ -1,7 +1,8 @@
 import {Message} from './api/message';
 
 export interface GenericMessageProps {
-  genericMessage: GenericMessage
+  genericMessage: GenericMessage,
+  handleClickMessageCard?: () => {}
 }
 
 interface GenericMessage extends Message  {

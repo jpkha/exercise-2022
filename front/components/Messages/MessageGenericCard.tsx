@@ -18,7 +18,7 @@ const MessageCardContainer = styled.li`
   z-index: 0;
   border-bottom: 1px solid #BABBBA;
   display: flex;
-  flex: 0 0 120px;
+  flex: 0 0 auto;
   padding: 20px 12px;
   background-color: ${({selectedMessage}) => selectedMessage ? greySelectedMessageBackgroundColor : 'white'};
   ${({selectedMessage}) => !selectedMessage && `
